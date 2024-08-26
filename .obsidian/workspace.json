@@ -4,71 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "911bf0895ab850c1",
+        "id": "810bb2928a69f41b",
         "type": "tabs",
         "children": [
           {
-            "id": "bd2fe957f9818d1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROS2/Gazebo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e57a537f33b14753",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROS2/ROS2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d826fd2f2abde17f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作规划.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d2502fbf73e8ba0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROS2/ROS2 NAV2 Vision.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24e85aa57b692bfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROS2/ROS2 NAV2 Vision.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ed757f4de7016f7",
+            "id": "97c467430c3ac300",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +94,7 @@
               "type": "backlink",
               "state": {
                 "file": "工作规划.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -216,55 +155,59 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "zk-prefixer:Create new unique note": false,
-      "publish:Publish changes...": false
+      "publish:Publish changes...": false,
+      "html-server:Turn Http Server On": false,
+      "html-server:Turn Http Server Off": false
     }
   },
-  "active": "7ed757f4de7016f7",
+  "active": "97c467430c3ac300",
   "lastOpenFiles": [
-    "ROS1/基于pytorch_kinematics机械臂可达性.md",
-    "ROS1/基于Reuleaux机械臂可达性.md",
-    "Tools/Ubuntu.md",
-    "Tools/Micromamba.md",
-    "Tools/Python Env.md",
+    "ROS QT/cppqt.md",
     "工作规划.md",
     "临时.md",
-    "ROS2/Moveit.md",
-    "ROS2/assets/Pasted image 20240613192611.png",
-    "ROS2/遥操仿真平台.md",
-    "ROS2/Gazebo.md",
-    "ROS2/assets/Pasted image 20240613164000.png",
-    "ROS2/Urdf Xacro Sdf.md",
-    "ROS2/ROS2.md",
-    "ROS2/ROS2 局域网通信.md",
-    "ROS2/ROS2 Migration Camera.md",
-    "ROS2/sw_urdf_exporter.md",
-    "ROS2/ROS2 NAV2 Vision.md",
-    "ROS2/assets/Pasted image 20240607102227.png",
-    "ROS2/assets/Pasted image 20240607101252.png",
-    "ROS2/assets/Pasted image 20240607101215.png",
-    "ROS2/assets/Pasted image 20240607101208.png",
-    "ROS2/assets/Pasted image 20240607101158.png",
-    "ROS2/assets/Pasted image 20240607101142.png",
-    "ROS2/assets/Pasted image 20240607101050.png",
-    "ROS2/assets/Pasted image 20240607101042.png",
-    "Matlab/1 URDF.md",
-    "Matlab",
-    "ROS2/assets",
-    "ROS1",
-    "ROS2",
-    "Tools",
-    "().md",
-    "Untitled.canvas",
-    "Excalidraw/Drawing 2024-05-21 19.31.56.excalidraw.md",
-    "Excalidraw/Drawing 2024-05-21 19.31.51.excalidraw.md",
-    "assets",
-    "Untitled 1",
-    "Inspiration",
-    "Template",
+    "未来不远/4 双臂控制.md",
+    "未来不远/2 ROS接口.md",
+    "未来不远/3 上位机接口.md",
+    "ROS QT/pyqt.md",
+    "ROS2/3 Moveit.md",
+    "未来不远/1 WebGL.md",
+    "ROS2/0 ROS2.md",
+    "未来不远/接口文档.md",
+    "ROS2/4 sw_urdf_exporter.md",
+    "ROS2/6 Gazebo.md",
+    "Tools/0 Ubuntu.md",
+    "未来不远/思维导图.md",
+    "未来不远/ssh.md",
+    "ROS2/1 ROS2 NAV2 Vision.md",
+    "Tools/4 Solidworks.md",
+    "Tools/3 Python Env.md",
+    "Fonts/MaShanZheng-Regular.ttf",
+    "Fonts/AaDongQiChangYueYangLouJi-2.ttf",
+    "Fonts/LXGWWenKai-Regular.ttf",
+    "Fonts",
+    "未来不远/Untitled.md",
     "Excalidraw",
-    "Python.md",
-    "[.md",
-    "Welcome.md",
-    "create a link.md"
+    "ROS2/5 Urdf Xacro Sdf.md",
+    "ROS2/7 遥操仿真平台.md",
+    "Tools/2 Cpp Env.md",
+    "Matlab/URDF.md",
+    "Untitled",
+    "Nvidia isaac/笔记.md",
+    "Nvidia isaac/assets/Pasted image 20240726194413.png",
+    "Nvidia isaac/assets/Pasted image 20240726194007.png",
+    "Nvidia isaac/assets/Pasted image 20240726193924.png",
+    "Nvidia isaac/assets",
+    "Tools/1 Micromamba.md",
+    "ROS2/assets/Pasted image 20240716183408.png",
+    "ROS2/assets/Pasted image 20240717111634.png",
+    "ROS2/assets/Pasted image 20240607101050.png",
+    "ROS2/assets/Pasted image 20240607101013.png",
+    "ROS2/assets/Pasted image 20240607100726.png",
+    "ROS2/assets/Pasted image 20240607100719.png",
+    "ROS2/assets/Pasted image 20240607100659.png",
+    "未来不远/接口文档",
+    "Nvidia isaac",
+    "ROS QT",
+    "Untitled.canvas"
   ]
 }

@@ -1,7 +1,7 @@
 # 1 环境配置
 
 [[基于Reuleaux机械臂可达性|ROS环境]]
-[[Python Env]]
+[[3 Python Env]]
 ```shell
 pip install --upgrade pip==9.0.3  
 pip install --upgrade setuptools
