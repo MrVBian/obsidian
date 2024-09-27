@@ -170,3 +170,40 @@ bool result
 builtin_interfaces/Time stamp # 时间戳
 uint8 battery  # 范围[0, 100]
 ```
+
+## 2.10 底盘升降旋转数据
+**请求方式：Ros Topic**
+**指令说明：机器人发布关节、笛卡尔数据**
+**话题名称：/chassis_motor_feedback**
+**消息类型：serial_interfaces/msg/ChassisFeedback**
+**订阅频率：20Hz**
+```topic
+std_msgs/Header header
+
+#declear motor mode
+uint8 UNKNOW = 0
+uint8 SPEED_MODE = 1
+uint8 POSITION_MODE = 2
+
+uindot8 chassis_mode
+uint8 rotate_mode
+uint8 lift_mode
+
+# motor speed feedback
+float32 left_speed
+float32 right_speed
+int32 rotate_speed
+int32 lift_speed
+
+# motor position feedback
+int32 left_position
+int32 right_position
+int32 rotate_position
+int32 lift_position
+```
+**测试用例：**
+```shell
+ros2 topic echo /chassis_motor_feedback
+
+motion_control_interfaces/msg/AutonomyJointControl "{joints: [{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0},{joint_position: -0.6},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0}]}"
+```

@@ -60,7 +60,6 @@ RestartSec=20
 
 [Install]
 WantedBy=default.target
-zme@zme-0001:~/zmebot_data_collection$
 ```
 启用开机自启动服务：
 ```shell

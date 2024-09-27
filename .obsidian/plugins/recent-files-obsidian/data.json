@@ -1,24 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "工作规划",
-      "path": "工作规划.md"
+      "basename": "5 上位机部署",
+      "path": "未来不远/5 上位机部署.md"
     },
     {
       "basename": "cppqt",
       "path": "ROS QT/cppqt.md"
-    },
-    {
-      "basename": "临时",
-      "path": "临时.md"
-    },
-    {
-      "basename": "4 双臂控制",
-      "path": "未来不远/4 双臂控制.md"
-    },
-    {
-      "basename": "2 ROS接口",
-      "path": "未来不远/2 ROS接口.md"
     },
     {
       "basename": "3 上位机接口",
@@ -29,20 +17,56 @@
       "path": "ROS QT/pyqt.md"
     },
     {
-      "basename": "3 Moveit",
-      "path": "ROS2/3 Moveit.md"
+      "basename": "工作规划",
+      "path": "工作规划.md"
+    },
+    {
+      "basename": "临时",
+      "path": "临时.md"
+    },
+    {
+      "basename": "4 Solidworks",
+      "path": "Tools/4 Solidworks.md"
+    },
+    {
+      "basename": "0 Ubuntu",
+      "path": "Tools/0 Ubuntu.md"
+    },
+    {
+      "basename": "2 ROS接口",
+      "path": "未来不远/2 ROS接口.md"
+    },
+    {
+      "basename": "思维导图",
+      "path": "未来不远/思维导图.md"
+    },
+    {
+      "basename": "4 双臂控制",
+      "path": "未来不远/4 双臂控制.md"
+    },
+    {
+      "basename": "接口文档",
+      "path": "未来不远/接口文档.md"
+    },
+    {
+      "basename": "2 Cpp Env",
+      "path": "Tools/2 Cpp Env.md"
+    },
+    {
+      "basename": "1 Micromamba",
+      "path": "Tools/1 Micromamba.md"
     },
     {
       "basename": "1 WebGL",
       "path": "未来不远/1 WebGL.md"
     },
     {
-      "basename": "0 ROS2",
-      "path": "ROS2/0 ROS2.md"
+      "basename": "5 Urdf Xacro Sdf",
+      "path": "ROS2/5 Urdf Xacro Sdf.md"
     },
     {
-      "basename": "接口文档",
-      "path": "未来不远/接口文档.md"
+      "basename": "3 Moveit",
+      "path": "ROS2/3 Moveit.md"
     },
     {
       "basename": "4 sw_urdf_exporter",
@@ -53,40 +77,24 @@
       "path": "ROS2/6 Gazebo.md"
     },
     {
-      "basename": "0 Ubuntu",
-      "path": "Tools/0 Ubuntu.md"
-    },
-    {
-      "basename": "思维导图",
-      "path": "未来不远/思维导图.md"
+      "basename": "7 遥操仿真平台",
+      "path": "ROS2/7 遥操仿真平台.md"
     },
     {
       "basename": "ssh",
       "path": "未来不远/ssh.md"
     },
     {
+      "basename": "0 ROS2",
+      "path": "ROS2/0 ROS2.md"
+    },
+    {
       "basename": "1 ROS2 NAV2 Vision",
       "path": "ROS2/1 ROS2 NAV2 Vision.md"
     },
     {
-      "basename": "4 Solidworks",
-      "path": "Tools/4 Solidworks.md"
-    },
-    {
       "basename": "3 Python Env",
       "path": "Tools/3 Python Env.md"
-    },
-    {
-      "basename": "5 Urdf Xacro Sdf",
-      "path": "ROS2/5 Urdf Xacro Sdf.md"
-    },
-    {
-      "basename": "7 遥操仿真平台",
-      "path": "ROS2/7 遥操仿真平台.md"
-    },
-    {
-      "basename": "2 Cpp Env",
-      "path": "Tools/2 Cpp Env.md"
     },
     {
       "basename": "URDF",
@@ -95,10 +103,6 @@
     {
       "basename": "笔记",
       "path": "Nvidia isaac/笔记.md"
-    },
-    {
-      "basename": "1 Micromamba",
-      "path": "Tools/1 Micromamba.md"
     },
     {
       "basename": "基于Reuleaux机械臂可达性",

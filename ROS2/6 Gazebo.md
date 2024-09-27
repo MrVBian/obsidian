@@ -2,6 +2,12 @@
 参考链接：[[2 ROS2 Migration Camera]]
 
 ![[Pasted image 20240613164000.png]]
+# 0 依赖安装
+
+```shell
+sudo apt install ros-humble-gazebo-ros2-control
+sudo apt install ros-humble-gazebo-ros-pkgs
+```
 
 # 1 基础操作
 

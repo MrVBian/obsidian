@@ -1,4 +1,5 @@
 
+
 # UI转Cpp
 ```shell
 uic -o ui_zmeui.h zmeui.ui
@@ -10,8 +11,6 @@ icon.addFile(QString::fromUtf8("../../../robot.png"), QSize(), QIcon::Normal, QI
 ```
 ```text
 icon.addFile(QString::fromStdString(ament_index_cpp::get_package_share_directory(pkg_name) + "/resources/ZmeUi.png"), QSize(), QIcon::Normal, QIcon::Off);
-// std::cout << "\n\n\n\n\n\n";
-// std::cout <<"path: "<< ament_index_cpp::get_package_share_directory(pkg_name) + "/resources/ZmeUi.png" << std::endl;
 ```
 
 ```text

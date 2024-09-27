@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "97c467430c3ac300",
+            "id": "8aa3d5e95c0d0efe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作规划.md",
+                "file": "未来不远/5 上位机部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作规划.md",
+                "file": "未来不远/5 上位机部署.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作规划.md",
+                "file": "未来不远/5 上位机部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作规划.md"
+                "file": "未来不远/5 上位机部署.md"
               }
             }
           }
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 200.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,44 +161,44 @@
       "html-server:Turn Http Server Off": false
     }
   },
-  "active": "97c467430c3ac300",
+  "active": "8aa3d5e95c0d0efe",
   "lastOpenFiles": [
     "ROS QT/cppqt.md",
-    "工作规划.md",
-    "临时.md",
-    "未来不远/4 双臂控制.md",
-    "未来不远/2 ROS接口.md",
     "未来不远/3 上位机接口.md",
     "ROS QT/pyqt.md",
-    "ROS2/3 Moveit.md",
-    "未来不远/1 WebGL.md",
-    "ROS2/0 ROS2.md",
+    "工作规划.md",
+    "临时.md",
+    "Tools/4 Solidworks.md",
+    "Tools/0 Ubuntu.md",
+    "未来不远/2 ROS接口.md",
+    "未来不远/思维导图.md",
+    "未来不远/4 双臂控制.md",
+    "未来不远/5 上位机部署.md",
     "未来不远/接口文档.md",
+    "Tools/2 Cpp Env.md",
+    "Tools/1 Micromamba.md",
+    "未来不远/1 WebGL.md",
+    "ROS2/5 Urdf Xacro Sdf.md",
+    "ROS2/3 Moveit.md",
     "ROS2/4 sw_urdf_exporter.md",
     "ROS2/6 Gazebo.md",
-    "Tools/0 Ubuntu.md",
-    "未来不远/思维导图.md",
+    "ROS2/7 遥操仿真平台.md",
     "未来不远/ssh.md",
+    "资料/Untitled.md",
+    "资料",
+    "ROS2/0 ROS2.md",
     "ROS2/1 ROS2 NAV2 Vision.md",
-    "Tools/4 Solidworks.md",
     "Tools/3 Python Env.md",
     "Fonts/MaShanZheng-Regular.ttf",
     "Fonts/AaDongQiChangYueYangLouJi-2.ttf",
     "Fonts/LXGWWenKai-Regular.ttf",
     "Fonts",
-    "未来不远/Untitled.md",
     "Excalidraw",
-    "ROS2/5 Urdf Xacro Sdf.md",
-    "ROS2/7 遥操仿真平台.md",
-    "Tools/2 Cpp Env.md",
     "Matlab/URDF.md",
-    "Untitled",
-    "Nvidia isaac/笔记.md",
     "Nvidia isaac/assets/Pasted image 20240726194413.png",
     "Nvidia isaac/assets/Pasted image 20240726194007.png",
     "Nvidia isaac/assets/Pasted image 20240726193924.png",
     "Nvidia isaac/assets",
-    "Tools/1 Micromamba.md",
     "ROS2/assets/Pasted image 20240716183408.png",
     "ROS2/assets/Pasted image 20240717111634.png",
     "ROS2/assets/Pasted image 20240607101050.png",
