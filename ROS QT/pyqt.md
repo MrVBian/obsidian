@@ -1,5 +1,4 @@
 
-
 ```shell
 # qt 找不到文件 qpa/qplatformnativeinterface.h _
 sudo apt-get install qtbase5-private-dev
