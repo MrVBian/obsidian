@@ -1,184 +1,200 @@
 {
   "recentFiles": [
     {
+      "basename": "ssh",
+      "path": "9 未来不远/ssh.md"
+    },
+    {
+      "basename": "7 Linux Nvidia",
+      "path": "8 Tools/7 Linux Nvidia.md"
+    },
+    {
+      "basename": "2 Cpp Env",
+      "path": "8 Tools/2 Cpp Env.md"
+    },
+    {
       "basename": "0 Ubuntu",
-      "path": "Tools/0 Ubuntu.md"
+      "path": "8 Tools/0 Ubuntu.md"
+    },
+    {
+      "basename": "接口文档",
+      "path": "9 未来不远/接口文档.md"
     },
     {
       "basename": "5 上位机部署",
-      "path": "未来不远/5 上位机部署.md"
-    },
-    {
-      "basename": "2 ROS接口",
-      "path": "未来不远/2 ROS接口.md"
+      "path": "9 未来不远/5 上位机部署.md"
     },
     {
       "basename": "3 上位机接口",
-      "path": "未来不远/3 上位机接口.md"
+      "path": "9 未来不远/3 上位机接口.md"
+    },
+    {
+      "basename": "2 ROS接口",
+      "path": "9 未来不远/2 ROS接口.md"
+    },
+    {
+      "basename": "1 WebGL",
+      "path": "9 未来不远/1 WebGL.md"
+    },
+    {
+      "basename": "3 Moveit",
+      "path": "5 ROS2/3 Moveit.md"
     },
     {
       "basename": "0 ROS2",
-      "path": "ROS2/0 ROS2.md"
+      "path": "5 ROS2/0 ROS2.md"
     },
     {
-      "basename": "4 双臂控制",
-      "path": "未来不远/4 双臂控制.md"
+      "basename": "0 学习笔记",
+      "path": "7 Nvidia isaac/0 学习笔记.md"
     },
     {
       "basename": "工作规划",
       "path": "工作规划.md"
     },
     {
-      "basename": "1 WebGL",
-      "path": "未来不远/1 WebGL.md"
+      "basename": "1 环境安装",
+      "path": "7 Nvidia isaac/1 环境安装.md"
     },
     {
-      "basename": "接口文档",
-      "path": "未来不远/接口文档.md"
+      "basename": "4 双臂控制",
+      "path": "9 未来不远/4 双臂控制.md"
     },
     {
-      "basename": "思维导图",
-      "path": "未来不远/思维导图.md"
+      "basename": "6 Ubuntu22.04工作环境",
+      "path": "8 Tools/6 Ubuntu22.04工作环境.md"
     },
     {
       "basename": "临时",
       "path": "临时.md"
     },
     {
-      "basename": "7 遥操仿真平台",
-      "path": "ROS2/7 遥操仿真平台.md"
+      "basename": "URDF",
+      "path": "3 Matlab/URDF.md"
     },
     {
-      "basename": "5 Urdf Xacro Sdf",
-      "path": "ROS2/5 Urdf Xacro Sdf.md"
-    },
-    {
-      "basename": "4 sw_urdf_exporter",
-      "path": "ROS2/4 sw_urdf_exporter.md"
-    },
-    {
-      "basename": "3 Moveit",
-      "path": "ROS2/3 Moveit.md"
-    },
-    {
-      "basename": "2 ROS2 Migration Camera",
-      "path": "ROS2/2 ROS2 Migration Camera.md"
-    },
-    {
-      "basename": "1 ROS2 NAV2 Vision",
-      "path": "ROS2/1 ROS2 NAV2 Vision.md"
-    },
-    {
-      "basename": "3 Grafana使用手册",
-      "path": "未来不远/数采/3 Grafana使用手册.md"
-    },
-    {
-      "basename": "2 Grafana监控InfluxDB",
-      "path": "未来不远/数采/2 Grafana监控InfluxDB.md"
-    },
-    {
-      "basename": "1 InfluxDB安装",
-      "path": "未来不远/数采/1 InfluxDB安装.md"
-    },
-    {
-      "basename": "Pasted image 20240530141253",
-      "path": "assets/Pasted image 20240530141253.png"
-    },
-    {
-      "basename": "Pasted image 20240523115402",
-      "path": "assets/Pasted image 20240523115402.png"
-    },
-    {
-      "basename": "Pasted image 20240523094919",
-      "path": "assets/Pasted image 20240523094919.png"
-    },
-    {
-      "basename": "ssh",
-      "path": "未来不远/ssh.md"
-    },
-    {
-      "basename": "pyqt",
-      "path": "ROS QT/pyqt.md"
-    },
-    {
-      "basename": "cppqt",
-      "path": "ROS QT/cppqt.md"
-    },
-    {
-      "basename": "4 Solidworks",
-      "path": "Tools/4 Solidworks.md"
-    },
-    {
-      "basename": "2 Cpp Env",
-      "path": "Tools/2 Cpp Env.md"
-    },
-    {
-      "basename": "1 Micromamba",
-      "path": "Tools/1 Micromamba.md"
+      "basename": "7 tiago_simulation",
+      "path": "5 ROS2/7 tiago_simulation.md"
     },
     {
       "basename": "6 Gazebo",
-      "path": "ROS2/6 Gazebo.md"
+      "path": "5 ROS2/6 Gazebo.md"
     },
     {
       "basename": "3 Python Env",
-      "path": "Tools/3 Python Env.md"
+      "path": "8 Tools/3 Python Env.md"
     },
     {
-      "basename": "URDF",
-      "path": "Matlab/URDF.md"
+      "basename": "4 Solidworks",
+      "path": "8 Tools/4 Solidworks.md"
     },
     {
-      "basename": "笔记",
-      "path": "Nvidia isaac/笔记.md"
+      "basename": "wallhaven-9weyz8",
+      "path": "8 Tools/assets/wallhaven-9weyz8.jpg"
+    },
+    {
+      "basename": "1 Micromamba",
+      "path": "8 Tools/1 Micromamba.md"
+    },
+    {
+      "basename": "思维导图",
+      "path": "9 未来不远/思维导图.md"
+    },
+    {
+      "basename": "5 Urdf Xacro Sdf",
+      "path": "5 ROS2/5 Urdf Xacro Sdf.md"
+    },
+    {
+      "basename": "4 sw_urdf_exporter",
+      "path": "5 ROS2/4 sw_urdf_exporter.md"
+    },
+    {
+      "basename": "2 ROS2 Migration Camera",
+      "path": "5 ROS2/2 ROS2 Migration Camera.md"
+    },
+    {
+      "basename": "1 ROS2 NAV2 Vision",
+      "path": "5 ROS2/1 ROS2 NAV2 Vision.md"
+    },
+    {
+      "basename": "3 Grafana使用手册",
+      "path": "9 未来不远/数采/3 Grafana使用手册.md"
+    },
+    {
+      "basename": "2 Grafana监控InfluxDB",
+      "path": "9 未来不远/数采/2 Grafana监控InfluxDB.md"
+    },
+    {
+      "basename": "1 InfluxDB安装",
+      "path": "9 未来不远/数采/1 InfluxDB安装.md"
+    },
+    {
+      "basename": "Pasted image 20240530141253",
+      "path": "0 assets/Pasted image 20240530141253.png"
+    },
+    {
+      "basename": "Pasted image 20240523115402",
+      "path": "0 assets/Pasted image 20240523115402.png"
+    },
+    {
+      "basename": "Pasted image 20240523094919",
+      "path": "0 assets/Pasted image 20240523094919.png"
+    },
+    {
+      "basename": "pyqt",
+      "path": "6 ROS QT/pyqt.md"
+    },
+    {
+      "basename": "cppqt",
+      "path": "6 ROS QT/cppqt.md"
     },
     {
       "basename": "基于Reuleaux机械臂可达性",
-      "path": "ROS1/基于Reuleaux机械臂可达性.md"
+      "path": "4 ROS1/基于Reuleaux机械臂可达性.md"
     },
     {
       "basename": "基于pytorch_kinematics机械臂可达性",
-      "path": "ROS1/基于pytorch_kinematics机械臂可达性.md"
+      "path": "4 ROS1/基于pytorch_kinematics机械臂可达性.md"
     },
     {
       "basename": "Pasted image 20240716183408",
-      "path": "ROS2/assets/Pasted image 20240716183408.png"
+      "path": "5 ROS2/assets/Pasted image 20240716183408.png"
     },
     {
       "basename": "Pasted image 20240607101050",
-      "path": "ROS2/assets/Pasted image 20240607101050.png"
+      "path": "5 ROS2/assets/Pasted image 20240607101050.png"
     },
     {
       "basename": "Pasted image 20240607101013",
-      "path": "ROS2/assets/Pasted image 20240607101013.png"
+      "path": "5 ROS2/assets/Pasted image 20240607101013.png"
     },
     {
       "basename": "Pasted image 20240607100726",
-      "path": "ROS2/assets/Pasted image 20240607100726.png"
+      "path": "5 ROS2/assets/Pasted image 20240607100726.png"
     },
     {
       "basename": "Pasted image 20240607100719",
-      "path": "ROS2/assets/Pasted image 20240607100719.png"
+      "path": "5 ROS2/assets/Pasted image 20240607100719.png"
     },
     {
       "basename": "Pasted image 20240607100659",
-      "path": "ROS2/assets/Pasted image 20240607100659.png"
+      "path": "5 ROS2/assets/Pasted image 20240607100659.png"
     },
     {
       "basename": "Pasted image 20240607100647",
-      "path": "ROS2/assets/Pasted image 20240607100647.png"
+      "path": "5 ROS2/assets/Pasted image 20240607100647.png"
     },
     {
       "basename": "4",
-      "path": "ROS2/assets/4.png"
+      "path": "5 ROS2/assets/4.png"
     },
     {
       "basename": "Pasted image 20240604184518",
-      "path": "ROS2/assets/Pasted image 20240604184518.png"
+      "path": "5 ROS2/assets/Pasted image 20240604184518.png"
     },
     {
       "basename": "Action-SingleActionClient",
-      "path": "ROS2/assets/Action-SingleActionClient.gif"
+      "path": "5 ROS2/assets/Action-SingleActionClient.gif"
     }
   ],
   "omittedPaths": [],

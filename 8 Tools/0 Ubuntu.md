@@ -212,3 +212,8 @@ sudo vim /etc/ssh/ssh_config
 # 重启刷新配置
 sudo /etc/init.d/ssh restart
 ```
+
+# 11 obsidian
+
+https://obsidian.md/download
+https://github.com/MrVBian/obsidian
