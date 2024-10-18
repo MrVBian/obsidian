@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "ssh",
-      "path": "9 未来不远/ssh.md"
+      "basename": "0 学习笔记",
+      "path": "7 Nvidia isaac/0 学习笔记.md"
+    },
+    {
+      "basename": "1 环境安装",
+      "path": "7 Nvidia isaac/1 环境安装.md"
+    },
+    {
+      "basename": "Pasted image 20241017160005",
+      "path": "7 Nvidia isaac/assets/Pasted image 20241017160005.png"
+    },
+    {
+      "basename": "Pasted image 20241017155852",
+      "path": "7 Nvidia isaac/assets/Pasted image 20241017155852.png"
+    },
+    {
+      "basename": "Pasted image 20241017153116",
+      "path": "7 Nvidia isaac/assets/Pasted image 20241017153116.png"
+    },
+    {
+      "basename": "工作规划",
+      "path": "工作规划.md"
+    },
+    {
+      "basename": "临时",
+      "path": "临时.md"
     },
     {
       "basename": "7 Linux Nvidia",
       "path": "8 Tools/7 Linux Nvidia.md"
+    },
+    {
+      "basename": "ssh",
+      "path": "9 未来不远/ssh.md"
     },
     {
       "basename": "2 Cpp Env",
@@ -45,28 +73,12 @@
       "path": "5 ROS2/0 ROS2.md"
     },
     {
-      "basename": "0 学习笔记",
-      "path": "7 Nvidia isaac/0 学习笔记.md"
-    },
-    {
-      "basename": "工作规划",
-      "path": "工作规划.md"
-    },
-    {
-      "basename": "1 环境安装",
-      "path": "7 Nvidia isaac/1 环境安装.md"
-    },
-    {
       "basename": "4 双臂控制",
       "path": "9 未来不远/4 双臂控制.md"
     },
     {
       "basename": "6 Ubuntu22.04工作环境",
       "path": "8 Tools/6 Ubuntu22.04工作环境.md"
-    },
-    {
-      "basename": "临时",
-      "path": "临时.md"
     },
     {
       "basename": "URDF",
@@ -187,14 +199,6 @@
     {
       "basename": "4",
       "path": "5 ROS2/assets/4.png"
-    },
-    {
-      "basename": "Pasted image 20240604184518",
-      "path": "5 ROS2/assets/Pasted image 20240604184518.png"
-    },
-    {
-      "basename": "Action-SingleActionClient",
-      "path": "5 ROS2/assets/Action-SingleActionClient.gif"
     }
   ],
   "omittedPaths": [],
