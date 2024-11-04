@@ -21,6 +21,13 @@ fromUtf8("../resources/
 fromStdString(ament_index_cpp::get_package_share_directory(pkg_name) + "/resources/
 ```
 
+```
+new QTreeWidget(layoutWidget4)
+new TreeWidget(layoutWidget4)
+
+QTreeWidget *pointTreeWidget
+TreeWidget *pointTreeWidget
+```
 
 | 名称  | 范围(弧度)             | 范围(角度)              |
 | --- | ------------------ | ------------------- |

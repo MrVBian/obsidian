@@ -52,3 +52,26 @@ sudo apt autoclean && sudo apt autoremove
 ```shell
 sudo rm /var/lib/influxdb/influxd.bolt
 ```
+
+# 6 初始化密码和数据库
+
+## 6.1 部署Influx CLI
+
+```shell
+# Ubuntu/Debian AMD64
+wget https://dl.influxdata.com/influxdb/releases/influxdb2-client-2.6.1-linux-amd64.tar.gz
+tar xf influxdb2-client-2.6.1-linux-amd64.tar.gz 
+cp influxdb2-client-2.6.1-linux-amd64/influx /usr/local/bin/
+
+# Ubuntu/Debian ARM64
+wget https://dl.influxdata.com/influxdb/releases/influxdb2-client-2.6.1-linux-arm64.tar.gz
+tar xf influxdb2-client-2.6.1-linux-arm64.tar.gz 
+cp influxdb2-client-2.6.1-linux-arm64/influx /usr/local/bin/
+```
+
+## 6.2 初始化密码和数据库
+
+```shell
+influx setup --org="zme" --bucket="ros" --username="admin" --password="zme123456" --token="I1BdLj3po_Ra4uKqE8t_bl3zrUYZuOg2TCQTBAA6KyCvss5GX4d8RBpevdcEowl88FfZdc8BRgNG81L5XF9Yfg==" --retention=360m --force
+```
+[面板](http://172.30.24.201:3000/?orgId=1)
