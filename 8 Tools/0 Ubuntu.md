@@ -188,9 +188,23 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo systemctl start docker
 ```
 ```shell
-sudo groupadd docker
-sudo usermod -aG docker $USER
+sudo groupadd docker               #添加用户组
+sudo gpasswd -a username docker    #将当前用户添加至用户组
+newgrp docker                      #更新用户组
 sudo service docker restart
+```
+
+```shell
+sudo tee /etc/docker/daemon.json <<-'EOF'
+{
+    "registry-mirrors": [
+    	"https://docker.unsee.tech",
+        "https://dockerpull.org",
+        "https://dockerhub.icu"
+    ]
+}
+EOF
+sudo systemctl daemon-reload && sudo systemctl restart docker
 ```
 # 9 wechat
 
@@ -222,6 +236,7 @@ https://github.com/MrVBian/obsidian
 
 ```shell
 sudo vim /usr/share/applications/obsidian.desktop 
+sudo cp obsidian.desktop ~/.local/share/applications/obsidian.desktop # add applications
 ```
 
 ```desktop
@@ -238,7 +253,7 @@ Categories=navicat;
 # 12 omniverse
 
 ```shell
-sudo vim /usr/share/applications/obsidian.desktop 
+sudo vim /usr/share/applications/omniverse.desktop 
 ```
 
 ```desktop

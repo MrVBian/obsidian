@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "6 Ubuntu22.04工作环境",
+      "path": "8 Tools/6 Ubuntu22.04工作环境.md"
+    },
+    {
+      "basename": "4 Solidworks",
+      "path": "8 Tools/4 Solidworks.md"
+    },
+    {
+      "basename": "0 Ubuntu",
+      "path": "8 Tools/0 Ubuntu.md"
+    },
+    {
+      "basename": "7 Linux Nvidia",
+      "path": "8 Tools/7 Linux Nvidia.md"
+    },
+    {
+      "basename": "2 Cpp Env",
+      "path": "8 Tools/2 Cpp Env.md"
+    },
+    {
+      "basename": "1 Micromamba",
+      "path": "8 Tools/1 Micromamba.md"
+    },
+    {
       "basename": "0 学习笔记",
       "path": "7 Nvidia isaac/0 学习笔记.md"
     },
@@ -15,18 +39,6 @@
     {
       "basename": "临时",
       "path": "临时.md"
-    },
-    {
-      "basename": "0 Ubuntu",
-      "path": "8 Tools/0 Ubuntu.md"
-    },
-    {
-      "basename": "6 Ubuntu22.04工作环境",
-      "path": "8 Tools/6 Ubuntu22.04工作环境.md"
-    },
-    {
-      "basename": "7 Linux Nvidia",
-      "path": "8 Tools/7 Linux Nvidia.md"
     },
     {
       "basename": "1 InfluxDB安装",
@@ -97,10 +109,6 @@
       "path": "7 Nvidia isaac/assets/Pasted image 20241017153116.png"
     },
     {
-      "basename": "2 Cpp Env",
-      "path": "8 Tools/2 Cpp Env.md"
-    },
-    {
       "basename": "接口文档",
       "path": "9 未来不远/接口文档.md"
     },
@@ -125,16 +133,8 @@
       "path": "8 Tools/3 Python Env.md"
     },
     {
-      "basename": "4 Solidworks",
-      "path": "8 Tools/4 Solidworks.md"
-    },
-    {
       "basename": "wallhaven-9weyz8",
       "path": "8 Tools/assets/wallhaven-9weyz8.jpg"
-    },
-    {
-      "basename": "1 Micromamba",
-      "path": "8 Tools/1 Micromamba.md"
     },
     {
       "basename": "思维导图",
