@@ -38,7 +38,7 @@ setopt nonomatch
 
 alias po="export https_proxy=127.0.0.1:7890 && export http_proxy=127.0.0.1:7890 && export ftp_proxy=127.0.0.1:7890 && ALL_PROXY=127.0.0.1:7890"
 alias pf="unset http_proxy https_proxy ftp_proxy ALL_PROXY"
-
+ 
 # 指定X11服务器的UNIX域套接字文件的路径，通常在需要在X11环境中运行图形界面应用程序
 XSOCK=/tmp/.X11-unix
 # 允许所有用户访问X11服务

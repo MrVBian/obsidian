@@ -8,10 +8,12 @@ ln -s /usr/share/applications/utools.desktop ~/.config/autostart/
 # 检查
 ll $HOME/.config/autostart/ | grep utools
 ```
+## 1.2 编辑启动程序
+```shell
 gnome-session-properties
+```
 ![[Pasted image 20240530141253.png]]
-
-## 1.2 开机脚本
+## 1.3 开机脚本
 
 确定Ubuntu系统使用的是哪种初始化系统：
 ```shell
@@ -217,3 +219,35 @@ sudo /etc/init.d/ssh restart
 
 https://obsidian.md/download
 https://github.com/MrVBian/obsidian
+
+```shell
+sudo vim /usr/share/applications/obsidian.desktop 
+```
+
+```desktop
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=obsidian
+Exec="/home/zme/software/Obsidian-1.5.12.AppImage"
+Icon=/home/zme/software/obsidian.svg
+Terminal=false
+Categories=navicat;
+```
+![[obsidian.svg]]
+# 12 omniverse
+
+```shell
+sudo vim /usr/share/applications/obsidian.desktop 
+```
+
+```desktop
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=omniverse
+Exec="/home/zme/software/omniverse-launcher-linux.AppImage"
+Icon=/home/zme/software/omniverse.png
+Terminal=false
+```
+![[omniverse.png]]

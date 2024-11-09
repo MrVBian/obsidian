@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "0 学习笔记",
+      "path": "7 Nvidia isaac/0 学习笔记.md"
+    },
+    {
+      "basename": "1 环境安装",
+      "path": "7 Nvidia isaac/1 环境安装.md"
+    },
+    {
+      "basename": "工作规划",
+      "path": "工作规划.md"
+    },
+    {
+      "basename": "临时",
+      "path": "临时.md"
+    },
+    {
+      "basename": "0 Ubuntu",
+      "path": "8 Tools/0 Ubuntu.md"
+    },
+    {
+      "basename": "6 Ubuntu22.04工作环境",
+      "path": "8 Tools/6 Ubuntu22.04工作环境.md"
+    },
+    {
+      "basename": "7 Linux Nvidia",
+      "path": "8 Tools/7 Linux Nvidia.md"
+    },
+    {
+      "basename": "1 InfluxDB安装",
+      "path": "9 未来不远/数采/1 InfluxDB安装.md"
+    },
+    {
       "basename": "3 上位机接口",
       "path": "9 未来不远/3 上位机接口.md"
     },
@@ -9,20 +41,12 @@
       "path": "6 ROS QT/cppqt.md"
     },
     {
-      "basename": "工作规划",
-      "path": "工作规划.md"
-    },
-    {
       "basename": "3 Moveit",
       "path": "5 ROS2/3 Moveit.md"
     },
     {
       "basename": "2 ROS接口",
       "path": "9 未来不远/2 ROS接口.md"
-    },
-    {
-      "basename": "0 学习笔记",
-      "path": "7 Nvidia isaac/0 学习笔记.md"
     },
     {
       "basename": "Pasted image 20240929163256",
@@ -37,32 +61,16 @@
       "path": "9 未来不远/数采/2 Grafana监控InfluxDB.md"
     },
     {
-      "basename": "1 InfluxDB安装",
-      "path": "9 未来不远/数采/1 InfluxDB安装.md"
-    },
-    {
       "basename": "3 Grafana使用手册",
       "path": "9 未来不远/数采/3 Grafana使用手册.md"
-    },
-    {
-      "basename": "1 环境安装",
-      "path": "7 Nvidia isaac/1 环境安装.md"
     },
     {
       "basename": "1 WebGL",
       "path": "9 未来不远/1 WebGL.md"
     },
     {
-      "basename": "临时",
-      "path": "临时.md"
-    },
-    {
       "basename": "pyqt",
       "path": "6 ROS QT/pyqt.md"
-    },
-    {
-      "basename": "7 Linux Nvidia",
-      "path": "8 Tools/7 Linux Nvidia.md"
     },
     {
       "basename": "ssh",
@@ -93,20 +101,12 @@
       "path": "8 Tools/2 Cpp Env.md"
     },
     {
-      "basename": "0 Ubuntu",
-      "path": "8 Tools/0 Ubuntu.md"
-    },
-    {
       "basename": "接口文档",
       "path": "9 未来不远/接口文档.md"
     },
     {
       "basename": "0 ROS2",
       "path": "5 ROS2/0 ROS2.md"
-    },
-    {
-      "basename": "6 Ubuntu22.04工作环境",
-      "path": "8 Tools/6 Ubuntu22.04工作环境.md"
     },
     {
       "basename": "URDF",
@@ -195,10 +195,6 @@
     {
       "basename": "Pasted image 20240607100719",
       "path": "5 ROS2/assets/Pasted image 20240607100719.png"
-    },
-    {
-      "basename": "Pasted image 20240607100659",
-      "path": "5 ROS2/assets/Pasted image 20240607100659.png"
     }
   ],
   "omittedPaths": [],
