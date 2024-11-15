@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8 Tools/6 Ubuntu22.04工作环境.md",
+                "file": "8 Tools/0 Ubuntu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 Ubuntu22.04工作环境"
+              "title": "0 Ubuntu"
+            }
+          },
+          {
+            "id": "4dd9ca0f6332221e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9 未来不远/6 Isaac.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6 Isaac"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,6 +86,16 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "9637cf11d13aef55",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
@@ -139,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8 Tools/6 Ubuntu22.04工作环境.md"
+                "file": "9 未来不远/6 Isaac.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 6 Ubuntu22.04工作环境"
+              "title": "Outline of 6 Isaac"
             }
           }
         ],
@@ -168,49 +193,49 @@
       "html-server:Turn Http Server Off": false
     }
   },
-  "active": "8aa3d5e95c0d0efe",
+  "active": "4dd9ca0f6332221e",
   "lastOpenFiles": [
-    "9 未来不远/5 上位机部署.md",
-    "5 ROS2/3 Moveit.md",
     "9 未来不远/3 上位机接口.md",
-    "8 Tools/6 Ubuntu22.04工作环境.md",
+    "9 未来不远/4 双臂控制.md",
+    "9 未来不远/5 上位机部署.md",
+    "9 未来不远/2 ROS接口.md",
+    "9 未来不远/6 Isaac.md",
+    "7 Nvidia isaac/0 学习笔记.md",
+    "7 Nvidia isaac/assets/Pasted image 20241114114039.png",
+    "7 Nvidia isaac/1 环境安装.md",
+    "7 Nvidia isaac/2 常用笔记.md",
+    "临时.md",
+    "8 Tools/3 Python Env.md",
+    "7 Nvidia isaac/Untitled.md",
+    "9 未来不远/1 WebGL.md",
+    "7 Nvidia isaac/assets/Pasted image 20241113110702.png",
+    "8 Tools/1 Micromamba.md",
     "8 Tools/0 Ubuntu.md",
-    "202411091531.md",
+    "9 未来不远/ssh.md",
+    "9 未来不远/接口文档.md",
+    "9 未来不远/思维导图.md",
+    "8 Tools/6 Ubuntu22.04工作环境.md",
     "8 Tools/7 Linux Nvidia.md",
     "8 Tools/4 Solidworks.md",
     "8 Tools/2 Cpp Env.md",
-    "8 Tools/1 Micromamba.md",
-    "7 Nvidia isaac/0 学习笔记.md",
-    "7 Nvidia isaac/1 环境安装.md",
+    "5 ROS2/3 Moveit.md",
+    "202411091531.md",
     "7 Nvidia isaac/assets/tutorial_ros2_ackermann_controller_4.gif",
     "7 Nvidia isaac/assets/tutorial_ros2_ackermann_controller_4.gif.crdownload",
     "7 Nvidia isaac/assets/Pasted image 20241108115025.png",
     "工作规划.md",
-    "临时.md",
     "7 Nvidia isaac/assets/Pasted image 20241107200648.png",
     "7 Nvidia isaac/assets/Pasted image 20241107200242.png",
     "7 Nvidia isaac/assets/Pasted image 20241107193357.png",
     "7 Nvidia isaac/assets/Pasted image 20241107192538.png",
     "7 Nvidia isaac/assets/Pasted image 20241106184821.png",
     "7 Nvidia isaac/assets/Pasted image 20241106184648.png",
-    "8 Tools/assets/omniverse.png",
-    "8 Tools/assets/obsidian.svg",
-    "9 未来不远/数采/1 InfluxDB安装.md",
+    "9 未来不远/0 数采/1 InfluxDB安装.md",
     "6 ROS QT/cppqt.md",
-    "9 未来不远/2 ROS接口.md",
-    "9 未来不远/数采/2 Grafana监控InfluxDB.md",
-    "9 未来不远/数采/3 Grafana使用手册.md",
-    "9 未来不远/1 WebGL.md",
-    "6 ROS QT/pyqt.md",
-    "Excalidraw/Drawing 2024-10-29 14.55.17.excalidraw.md",
     "Excalidraw",
-    "9 未来不远/ssh.md",
-    "9 未来不远/4 双臂控制.md",
-    "9 未来不远/接口文档.md",
-    "5 ROS2/0 ROS2.md",
     "8 Tools/assets",
-    "9 未来不远/数采/assets",
-    "9 未来不远/数采",
+    "9 未来不远/0 数采/assets",
+    "9 未来不远/0 数采",
     "资料",
     "1 Fonts/MaShanZheng-Regular.ttf",
     "1 Fonts/AaDongQiChangYueYangLouJi-2.ttf",

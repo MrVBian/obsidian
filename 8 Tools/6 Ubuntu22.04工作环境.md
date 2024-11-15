@@ -185,6 +185,11 @@ https://www.todesk.com/
 
 ## VCode
 https://code.visualstudio.com/
+```
+Isaac Sim VS Code Edition
+docker
+
+```
 
 ## Omniverse
 ```shell

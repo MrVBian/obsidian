@@ -238,7 +238,7 @@ https://github.com/MrVBian/obsidian
 sudo vim /usr/share/applications/obsidian.desktop 
 sudo cp obsidian.desktop ~/.local/share/applications/obsidian.desktop # add applications
 ```
-
+设置->编辑->关闭拼写检查(Spellcheck)
 ```desktop
 [Desktop Entry]
 Encoding=UTF-8
