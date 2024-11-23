@@ -9,16 +9,16 @@
       "path": "9 未来不远/3 上位机接口.md"
     },
     {
+      "basename": "2 ROS接口",
+      "path": "9 未来不远/2 ROS接口.md"
+    },
+    {
       "basename": "4 双臂控制",
       "path": "9 未来不远/4 双臂控制.md"
     },
     {
       "basename": "5 上位机部署",
       "path": "9 未来不远/5 上位机部署.md"
-    },
-    {
-      "basename": "2 ROS接口",
-      "path": "9 未来不远/2 ROS接口.md"
     },
     {
       "basename": "0 学习笔记",

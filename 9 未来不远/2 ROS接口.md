@@ -58,7 +58,7 @@ geometry_msgs/Pose current_pose
 ## 2.4 关节控制
 **请求方式：Ros Topic**
 **指令说明：上位机下发机器人关节，控制机器人**
-**话题名称：/auto_joint_control_cmd**
+**话题名称：/auto_joint_cmd**
 **发布频率：20Hz**
 **消息类型：motion_control_interfaces/msg/AutonomyJointControl**
 ```topic
@@ -82,7 +82,7 @@ uint8 IDLE = 0
 **测试用例：**
 ```shell
 # 自动关节
-ros2 topic pub /auto_joint_control_cmd motion_control_interfaces/msg/AutonomyJointControl "{joints: [{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0},{joint_position: -0.6},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0}]}"
+ros2 topic pub /auto_joint_cmd dual_arm_interfaces/msg/AutonomyJointCommand "{left_joint_command: [{joint_position: 0.2},{joint_position: 0.2},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0}],right_joint_command: [{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0}]}"
 ```
 ## 2.5 笛卡尔坐标控制
 **请求方式：Ros Topic**
