@@ -156,3 +156,6 @@ https://www.worldrobotconference.com/ex/product/414.html
 ## 2.2 DCW2(头)
 
 https://www.orbbec.com.cn/index/Product/info.html?cate=38&id=55
+
+# 3 动力学参数
+![[动力学参数.png]]
