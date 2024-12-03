@@ -73,8 +73,6 @@ gz sdf -p my_model.urdf > my_model.sdf
 # 4 matlab urdf
 ![[URDF]]
 
-
-
 ---
 # 未归纳
 
