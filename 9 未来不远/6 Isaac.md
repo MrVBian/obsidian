@@ -1,52 +1,52 @@
 ```note
-Joint 0 name: base_joint
-Joint 1 name: rotate_base_joint
-Joint 2 name: lifting_base_joint
-Joint 3 name: gimbal_joint1
-Joint 4 name: left_joint1
-Joint 5 name: right_joint1
-Joint 6 name: gimbal_joint2
-Joint 7 name: left_joint2
-Joint 8 name: right_joint2
-Joint 9 name: gimbal_camera_joint
-Joint 10 name: left_joint3
-Joint 11 name: right_joint3
-Joint 12 name: left_joint4
-Joint 13 name: right_joint4
-Joint 14 name: left_joint5
-Joint 15 name: right_joint5
-Joint 16 name: left_joint6
-Joint 17 name: right_joint6
-Joint 18 name: left_joint7
-Joint 19 name: right_joint7
-Joint 20 name: left_camera_base_joint
-Joint 21 name: right_camera_base_joint
-Joint 22 name: left_camera_joint
-Joint 23 name: left_tool_base_joint
-Joint 24 name: right_camera_joint
-Joint 25 name: right_tool_base_joint
-Joint 26 name: left_base_tool_joint
-Joint 27 name: right_base_tool_joint
-Joint 28 name: left_finger_joint1
-Joint 29 name: left_finger_joint2
-Joint 30 name: ll_tool_joint3
-Joint 31 name: lr_tool_joint3
-Joint 32 name: right_finger_joint1
-Joint 33 name: right_finger_joint2
-Joint 34 name: rl_tool_joint3
-Joint 35 name: rr_tool_joint3
-Joint 36 name: lr_tool_joint2
-Joint 37 name: ll_tool_joint2
-Joint 38 name: rr_tool_joint2
-Joint 39 name: rl_tool_joint2
-
-
-
 - rotate_base_joint
 - lifting_base_joint
 - gimbal_joint1
 - left_joint1
 - right_joint1
+- gimbal_joint2
+- left_joint2
+- right_joint2
+- left_joint3
+- right_joint3
+- left_joint4
+- right_joint4
+- left_joint5
+- right_joint5
+- left_joint6
+- right_joint6
+- left_joint7
+- right_joint7
+- left_finger_joint1
+- left_finger_joint2
+- ll_tool_joint3
+- lr_tool_joint3
+- right_finger_joint1
+- right_finger_joint2
+- rl_tool_joint3
+- rr_tool_joint3
+- lr_tool_joint2
+- ll_tool_joint2
+- rr_tool_joint2
+- rl_tool_joint2
+
+
+
+- rotate_base_joint
+- lifting_base_joint
+- left_font_steering_joint1
+- left_rear_steering_joint3
+- left_whee_joint
+- right_font_steering_joint2
+- right_rear_steering_joint4
+- right_whee_joint
+- gimbal_joint1
+- left_joint1
+- right_joint1
+- left_font_drive_joint1
+- left_rear_drive_joint3
+- right_font_drive_joint2
+- right_rear_drive_joint4
 - gimbal_joint2
 - left_joint2
 - right_joint2
@@ -138,7 +138,14 @@ ros2 topic pub /joint_command sensor_msgs/JointState '{header: {stamp: {sec: 172
 
 # 2 相机
 
+**Isaac Utils > Common Omnigraphs > ROS2 Camera** (Window > Entensions > ROS2 bridge)
 ## 2.1 DCL(手)
+
+|       | HFOV(16:9) | HFOV(4:3) |
+| ----- | ---------- | --------- |
+| rgb   | 86°        | 64°       |
+| depth | 90°        |           |
+| 红外    | 93°        |           |
 
 设置必须符合DaBai DCL相机的规格  
 SB3.0 :  
@@ -152,10 +159,18 @@ color规格
 640 x 480 @5/10/15/30/60 fps MJPEG/YUYV  
 640 x 360 @5/10/15/30/60 fps MJPEG/YUYV
 https://www.worldrobotconference.com/ex/product/414.html
-
 ## 2.2 DCW2(头)
+
+|       | HFOV(16:9) | HFOV(4:3) |
+| ----- | ---------- | --------- |
+| rgb   | 86°        | 63°       |
+| depth | 91°        |           |
+| 红外    | 93°        |           |
 
 https://www.orbbec.com.cn/index/Product/info.html?cate=38&id=55
 
+![[Pasted image 20241203164759.png]]
 # 3 动力学参数
+真机：最大速度90°/s
+仿真：30帧，最大速度90/30=3
 ![[动力学参数.png]]

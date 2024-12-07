@@ -66,9 +66,5 @@ How can I solve the above problem? Thank you for your reply!
 ### Operating System
 Ubuntu 22.04
 
-
-Multiple camera views, low frame rate.
-When I only have one view, the frame rate is 60hz, and when I start four views, the frame rate is 13.7hz, but the host's performance is not fully utilized, and there is still a large redundancy in CPU, GPU and memory.
-Question:
-1. What is the reason?
-2. What are the optimization methods?
+红色轮子(带drive)，蓝色万向轮(无drive)，绿色万向轮的转向(无drive)。红色轮子施加相反的力，正常情况应该是自转。
+问题：地面平坦，运行中会被弹开

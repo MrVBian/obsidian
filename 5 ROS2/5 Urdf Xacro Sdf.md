@@ -46,6 +46,10 @@ check_urdf xxx.urd
 
 ## 2.2 urdf_to_graphiz 结构查看
 
+```shell
+sudo apt install graphviz -y
+```
+
 进入urdf文件所属目录，调用：
 ```shell
 urdf_to_graphiz xxx.urdf
