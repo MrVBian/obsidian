@@ -52,7 +52,7 @@ Windows 10:
 
 进入环境后，一切操作和正常使用python一样 安装包使用`pip install 包`
 
-## 7. 实用技巧
+## 7. 实用导入导出包组
 
 记录安装的第三方模块
 ```shell
@@ -62,6 +62,14 @@ pip freeze > requirements.txt
 ```shell
 pip install -r requirements.txt
 ```
+## 8. 查看包版本
+```shell
+pip show numpy
+```
+## 9. 强制安装包版本
+```shell
+pip install numpy==1.26.0 --force-reinstall
+```
 
 # 二、conda
 
@@ -70,6 +78,12 @@ pip install -r requirements.txt
 ```shell
 # 查看conda版本
 conda --version
+
+# 查看当前源
+conda config --show-sources
+
+# 恢复默认源
+conda config --remove-key channels
 
 # 设置镜像
 #设置清华镜像
