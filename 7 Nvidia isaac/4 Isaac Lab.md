@@ -20,6 +20,16 @@ sudo apt install cmake build-essential
 ./isaaclab.sh --install # or "./isaaclab.sh -i"
 ```
 
+安装测试
+```shell
+# Option 1: Using the isaaclab.sh executable
+# note: this works for both the bundled python and the virtual environment
+./isaaclab.sh -p source/standalone/tutorials/00_sim/create_empty.py
+
+# Option 2: Using python in your virtual environment
+python source/standalone/tutorials/00_sim/create_empty.py
+```
+
 Isaac Python环境
 ```shell
 /home/zme/.local/share/ov/pkg/isaac-sim-4.2.0/python.sh your_script.py
@@ -28,4 +38,17 @@ Isaac Python环境
 # pip install -r /home/zme/.local/share/ov/pkg/isaac-sim-4.2.0/requirements.txt
 ```
 
-# 1
+一些链接：
+https://developer.nvidia.com/blog/author/asawareeb/
+
+# 1 官方环境
+
+```shell
+./isaaclab.sh -p source/standalone/environments/list_envs.py
+```
+
+##  Isaac Lab Ecosystem
+https://isaac-sim.github.io/IsaacLab/main/source/setup/ecosystem.html
+![[Pasted image 20241212193905.png]]
+
+[参考架构](https://isaac-sim.github.io/IsaacLab/main/source/refs/reference_architecture/index.html)
