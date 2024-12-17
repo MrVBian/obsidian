@@ -172,5 +172,5 @@ https://www.orbbec.com.cn/index/Product/info.html?cate=38&id=55
 ![[Pasted image 20241203164759.png]]
 # 3 动力学参数
 真机：最大速度90°/s
-仿真：30帧，最大速度90/30=3
+
 ![[动力学参数.png]]
