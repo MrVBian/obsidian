@@ -38,6 +38,8 @@ Isaac Python环境
 # pip install -r /home/zme/.local/share/ov/pkg/isaac-sim-4.2.0/requirements.txt
 ```
 
+交互脚本：[Isaac](https://docs.omniverse.nvidia.com/isaacsim/latest/gui_tutorials/tutorial_gui_interactive_scripting.html)
+
 一些链接：
 https://developer.nvidia.com/blog/author/asawareeb/
 
