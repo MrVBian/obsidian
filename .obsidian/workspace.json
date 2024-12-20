@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 Nvidia isaac/0 学习笔记.md",
+                "file": "9 未来不远/6 Isaac.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0 学习笔记"
+              "title": "6 Isaac"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7 Nvidia isaac/0 学习笔记.md"
+                "file": "9 未来不远/6 Isaac.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 0 学习笔记"
+              "title": "Outline of 6 Isaac"
             }
           }
         ],
@@ -170,20 +170,20 @@
   },
   "active": "19f433d215e184cc",
   "lastOpenFiles": [
-    "工作规划.md",
-    "7 Nvidia isaac/0 学习笔记.md",
-    "9 未来不远/6 Isaac.md",
-    "7 Nvidia isaac/1 环境安装.md",
-    "7 Nvidia isaac/2 常用笔记.md",
     "7 Nvidia isaac/4 Isaac Lab.md",
+    "9 未来不远/6 Isaac.md",
+    "9 未来不远/5 上位机部署.md",
+    "7 Nvidia isaac/2 常用笔记.md",
+    "7 Nvidia isaac/Untitled.md",
+    "7 Nvidia isaac/3 数字模型.md",
+    "7 Nvidia isaac/1 环境安装.md",
+    "7 Nvidia isaac/0 学习笔记.md",
+    "工作规划.md",
     "9 未来不远/2 ROS接口.md",
     "临时.md",
-    "7 Nvidia isaac/3 数字模型.md",
     "5 ROS2/5 Urdf Xacro Sdf.md",
     "5 ROS2/4 sw_urdf_exporter.md",
-    "9 未来不远/5 上位机部署.md",
     "8 Tools/3 Python Env.md",
-    "7 Nvidia isaac/Untitled.md",
     "9 未来不远/4 双臂控制.md",
     "9 未来不远/思维导图.md",
     "8 Tools/7 Linux Nvidia.md",
