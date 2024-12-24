@@ -167,46 +167,7 @@ sudo apt-get install filezilla
 /opt/blender-4.1.1-linux-x64/4.1/python/bin/python3.11 -m pip install --upgrade pip
 ```
 
-# 8 docker
-
-```shell
-curl -fsSL get.docker.com -o get-docker.sh
-sudo sh get-docker.sh --mirror Aliyun
-```
-```shell
-sudo apt update
-sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    gnupg \
-    lsb-release
-curl -fsSL http://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] http://mirrors.aliyun.com/docker-ce/linux/ubuntu $(lsb_release -cs) stable"
-sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
-sudo systemctl start docker
-```
-```shell
-sudo groupadd docker               #添加用户组
-sudo gpasswd -a username docker    #将当前用户添加至用户组
-newgrp docker                      #更新用户组
-sudo service docker restart
-```
-
-```shell
-sudo tee /etc/docker/daemon.json <<-'EOF'
-{
-    "registry-mirrors": [
-    	"https://docker.unsee.tech",
-        "https://dockerpull.org",
-        "https://dockerhub.icu"
-    ]
-}
-EOF
-sudo systemctl daemon-reload && sudo systemctl restart docker
-```
-# 9 wechat
+# 8 wechat
 
 铜豌豆Linux优化后的原生版本
 ```shell
@@ -219,7 +180,7 @@ sudo apt -y install electronic-wechat-icons-atzlinux
 sudo cp /etc/lsb-release /etc/lsb-release.wechat
 ```
 
-# 10 ssh
+# 9 ssh
 ```shell
 sudo apt install openssh-server			# 安装ssh服务器
 sudo apt install openssh-client			# 安装ssh客户机
@@ -229,7 +190,7 @@ sudo vim /etc/ssh/ssh_config
 sudo /etc/init.d/ssh restart
 ```
 
-# 11 obsidian
+# 10 obsidian
 
 https://obsidian.md/download
 https://github.com/MrVBian/obsidian
@@ -250,7 +211,7 @@ Terminal=false
 Categories=navicat;
 ```
 ![[obsidian.svg]]
-# 12 omniverse
+# 11 omniverse
 
 ```shell
 sudo vim /usr/share/applications/omniverse.desktop 
