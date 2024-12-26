@@ -68,3 +68,6 @@ Ubuntu 22.04
 
 红色轮子(带drive)，蓝色万向轮(无drive)，绿色万向轮的转向(无drive)。红色轮子施加相反的力，正常情况应该是自转。
 问题：地面平坦，运行中会被弹开
+
+
+ Warning: in _ReportErrors at line 2890 of /builds/omniverse/usd-ci/USD/pxr/usd/usd/stage.cpp -- In </World/envs/env_0/Robot>: Could not open asset @http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.2/Isaac/IsaacLab/Robots/Classic/Cartpole/cartpole.usd@ for reference introduced by @anon:0x652bf7c76f00:World0.usd@</World/envs/env_0/Robot>. (recomposing stage on stage @anon:0x652bf7c76f00:World0.usd@ <0x652bf61e5660>)

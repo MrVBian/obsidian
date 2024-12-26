@@ -54,3 +54,19 @@ https://isaac-sim.github.io/IsaacLab/main/source/setup/ecosystem.html
 ![[Pasted image 20241212193905.png]]
 
 [参考架构](https://isaac-sim.github.io/IsaacLab/main/source/refs/reference_architecture/index.html)
+
+## 解决Isaac Sim资源获取不到问题
+
+> Could not open asset @[http](https://so.csdn.net/so/search?q=http&spm=1001.2101.3001.7020)://omniverse-content-production
+
+step1：
+在Omniverse APP里点击 NUCLEUS 或者 Nucleus Navigator，选择自己要下载的 Isaac Sim 资源包：
+![[Pasted image 20241225171621.png]]
+step2:
+打开对应版本的isaac sim安装目录，运行下面脚本（注意替换里面的目录）即可：
+```shell
+# 将目录替换成你自己的下载的即可
+./isaac-sim --/persistent/isaac/asset_root/default="D:\omniverse\Downloads\Assets\Isaac\4.2"
+```
+上面指令的目的是改掉 **user.config.json** 这个文件，这个文件所在目录在你的DATA PATH下
+![[Pasted image 20241225171752.png]]
