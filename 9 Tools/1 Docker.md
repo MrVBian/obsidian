@@ -95,6 +95,7 @@ docker-compose up -d
 ![[Pasted image 20241224114659.png]]
 
 ```config
+31 436 550
 172.24.3.132
 fcF1c5xyFQqIAevTd8lylQHLVR3tNtpFIbIc+5xGzS4=
 ```

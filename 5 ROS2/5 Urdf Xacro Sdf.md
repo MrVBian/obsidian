@@ -56,6 +56,51 @@ urdf_to_graphiz xxx.urdf
 ```
 当前目录下会生成 pdf 文件
 ![[Pasted image 20240604184518.png]]
+```shell
+pip3 install urdf-parser-py
+nv urdf_to_dot.py
+python urdf_to_dot.py
+dot -Tpng -Grankdir=TB frames_with_joints.dot -o frames_with_joint_info.png
+```
+python脚本：
+```python
+import os
+from urdf_parser_py.urdf import URDF
+
+def generate_tf_tree_with_joints(urdf_file, dot_file):
+    # 以字节模式读取 URDF 文件
+    with open(urdf_file, 'rb') as f:
+        urdf_content = f.read()  # 读取文件内容为字节
+
+    # 使用 from_xml_string 解析字节内容
+    robot = URDF.from_xml_string(urdf_content)
+
+    with open(dot_file, 'w') as f:
+        f.write("digraph tf_tree {\n")
+
+        # 添加链接 (coordinate frames)
+        for link in robot.links:
+            f.write(f'  {link.name} [label="{link.name}"]\n')
+
+        # 添加关节并将属性作为边的标签
+        for joint in robot.joints:
+            parent = joint.parent
+            child = joint.child
+            joint_type = joint.type
+            translation = joint.origin.xyz if joint.origin else [0, 0, 0]
+            rotation = joint.origin.rpy if joint.origin else [0, 0, 0]
+            label = f'Joint: {joint.name}\\nType: {joint_type}\\nTranslation: {translation}\\nRotation: {rotation}'
+            f.write(f'  {parent} -> {child} [label="{label}"]\n')
+
+        f.write("}\n")
+
+if __name__ == "__main__":
+    urdf_file = "zmebot_description.urdf"  # 替换为实际的 URDF 文件路径
+    dot_file = "frames_with_joints.dot"
+    generate_tf_tree_with_joints(urdf_file, dot_file)
+```
+效果：
+![[Pasted image 20241227165430.png]]
 # 3 urdf xacro sdf互转
 
 **xacro 转 urdf**
