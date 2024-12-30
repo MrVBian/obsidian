@@ -11,14 +11,12 @@
             "id": "19f433d215e184cc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "5 ROS2/5 Urdf Xacro Sdf.md",
-                "mode": "source",
-                "source": false
+                "file": "9 Tools/assets/Pasted image 20241017144254.png"
               },
-              "icon": "lucide-file",
-              "title": "5 Urdf Xacro Sdf"
+              "icon": "lucide-image",
+              "title": "Pasted image 20241017144254"
             }
           }
         ]
@@ -139,10 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5 ROS2/5 Urdf Xacro Sdf.md"
+                "file": "9 Tools/assets/Pasted image 20241017144254.png"
               },
               "icon": "lucide-list",
-              "title": "Outline of 5 Urdf Xacro Sdf"
+              "title": "Outline of Pasted image 20241017144254"
             }
           }
         ],
@@ -168,12 +166,16 @@
       "html-server:Turn Http Server Off": false
     }
   },
-  "active": "19f433d215e184cc",
+  "active": "c02909006a395554",
   "lastOpenFiles": [
+    "9 Tools/assets/Pasted image 20241017200042.png",
+    "9 Tools/assets/Pasted image 20241017144254.png",
+    "9 Tools/6 Ubuntu22.04工作环境.md",
+    "9 Tools/0 Ubuntu.md",
+    "工作规划.md",
+    "5 ROS2/5 Urdf Xacro Sdf.md",
     "5 ROS2/assets/Pasted image 20241227165430.png",
     "5 ROS2/6 Gazebo.md",
-    "5 ROS2/5 Urdf Xacro Sdf.md",
-    "工作规划.md",
     "5 ROS2/3 Moveit.md",
     "5 ROS2/4 sw_urdf_exporter.md",
     "9 Tools/1 Docker.md",
@@ -192,8 +194,6 @@
     "7 Nvidia isaac/assets/Pasted image 20241017155852.png",
     "7 Nvidia isaac/assets/Pasted image 20241017153116.png",
     "7 Nvidia isaac/0 学习笔记.md",
-    "9 Tools/assets/Pasted image 20241224114659.png",
-    "9 Tools/0 Ubuntu.md",
     "9 Tools/7 Linux Nvidia.md",
     "9 Tools/2 Micromamba.md",
     "8 未来不远/6 Isaac.md",
@@ -203,9 +203,7 @@
     "7 Nvidia isaac/1 环境安装.md",
     "临时.md",
     "9 Tools/4 Python Env.md",
-    "8 未来不远/assets/Pasted image 20241203164759.png",
     "9 Tools/3 Cpp Env.md",
-    "8 未来不远/1 WebGL.md",
     "8 未来不远/assets",
     "8 未来不远/0 数采/assets",
     "8 未来不远/0 数采",
