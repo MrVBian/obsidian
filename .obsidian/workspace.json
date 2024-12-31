@@ -11,12 +11,14 @@
             "id": "19f433d215e184cc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "9 Tools/assets/Pasted image 20241017144254.png"
+                "file": "9 Tools/8 notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241017144254"
+              "icon": "lucide-file",
+              "title": "8 notes"
             }
           }
         ]
@@ -137,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9 Tools/assets/Pasted image 20241017144254.png"
+                "file": "9 Tools/8 notes.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20241017144254"
+              "title": "Outline of 8 notes"
             }
           }
         ],
@@ -166,13 +168,15 @@
       "html-server:Turn Http Server Off": false
     }
   },
-  "active": "c02909006a395554",
+  "active": "19f433d215e184cc",
   "lastOpenFiles": [
-    "9 Tools/assets/Pasted image 20241017200042.png",
+    "7 Nvidia isaac/4 Isaac Lab.md",
+    "9 Tools/8 notes.md",
+    "工作规划.md",
     "9 Tools/assets/Pasted image 20241017144254.png",
+    "9 Tools/assets/Pasted image 20241017200042.png",
     "9 Tools/6 Ubuntu22.04工作环境.md",
     "9 Tools/0 Ubuntu.md",
-    "工作规划.md",
     "5 ROS2/5 Urdf Xacro Sdf.md",
     "5 ROS2/assets/Pasted image 20241227165430.png",
     "5 ROS2/6 Gazebo.md",
@@ -184,7 +188,6 @@
     "8 未来不远/思维导图.md",
     "8 未来不远/4 双臂控制.md",
     "7 Nvidia isaac/Untitled.md",
-    "7 Nvidia isaac/4 Isaac Lab.md",
     "7 Nvidia isaac/assets/Pasted image 20241225171752.png",
     "7 Nvidia isaac/assets/Pasted image 20241127193222.png",
     "7 Nvidia isaac/assets/Pasted image 20241212193905.png",
@@ -192,7 +195,6 @@
     "7 Nvidia isaac/assets/Pasted image 20241225171644.png",
     "7 Nvidia isaac/assets/tutorial_ros2_ackermann_controller_4.gif",
     "7 Nvidia isaac/assets/Pasted image 20241017155852.png",
-    "7 Nvidia isaac/assets/Pasted image 20241017153116.png",
     "7 Nvidia isaac/0 学习笔记.md",
     "9 Tools/7 Linux Nvidia.md",
     "9 Tools/2 Micromamba.md",

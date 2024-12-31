@@ -67,6 +67,34 @@ step2:
 ```shell
 # 将目录替换成你自己的下载的即可
 ./isaac-sim --/persistent/isaac/asset_root/default="D:\omniverse\Downloads\Assets\Isaac\4.2"
+# /home/zme/.local/share/ov/data/Kit/Isaac-Sim/4.2/user.config.json
+
+# ./isaac-sim.sh --/persistent/isaac/asset_root/default="/home/zme/Documents/IsaacAssets"
+```
+
+```json
+        "isaac": {
+            "asset_root": {
+                "default": "omniverse://localhost/NVIDIA/Assets/Isaac/2023.1.1",
+                "nvidia": "omniverse://localhost/NVIDIA",
+                "isaac": "omniverse://localhost/NVIDIA/Assets/Isaac/2023.1.1/Isaac",
+                "cloud": "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1",
+                "timeout": 10.0
+            }
+        },
+```
+
+```json
+        "isaac": {
+            "asset_root": {
+                "nvidia": "omniverse://localhost/NVIDIA",
+                "isaac": "omniverse://localhost/NVIDIA/Assets/Isaac/4.2/Isaac",
+                "cloud": "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.2",
+                "timeout": 5.0,
+                "default": "/home/zme/Documents/IsaacAssets"
+            }
+        },
+
 ```
 上面指令的目的是改掉 **user.config.json** 这个文件，这个文件所在目录在你的DATA PATH下
 ![[Pasted image 20241225171752.png]]
