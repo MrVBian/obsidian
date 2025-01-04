@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作规划.md",
+                "file": "9 Tools/6 Ubuntu22.04工作环境.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "工作规划"
+              "title": "6 Ubuntu22.04工作环境"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作规划.md"
+                "file": "9 Tools/6 Ubuntu22.04工作环境.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 工作规划"
+              "title": "Outline of 6 Ubuntu22.04工作环境"
             }
           }
         ],
@@ -170,6 +170,7 @@
   },
   "active": "19f433d215e184cc",
   "lastOpenFiles": [
+    "工作规划.md",
     "9 Tools/6 Ubuntu22.04工作环境.md",
     "9 Tools/0 Ubuntu.md",
     "9 Tools/9 Git notes.md",
@@ -184,7 +185,6 @@
     "7 Nvidia isaac/4 Isaac Lab.md",
     "8 未来不远/6 Isaac.md",
     "9 Tools/7 Linux Nvidia.md",
-    "工作规划.md",
     "9 Tools/assets/Pasted image 20241017144254.png",
     "9 Tools/assets/Pasted image 20241017200042.png",
     "5 ROS2/5 Urdf Xacro Sdf.md",

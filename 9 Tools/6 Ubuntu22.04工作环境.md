@@ -89,15 +89,13 @@ sudo apt install alacritty
 > apt install 不是最新版本，不兼容lazyvim
 ```shell
 # https://github.com/neovim/neovim/releases/tag/stable
-wget https://github.com/neovim/neovim/releases/download/v0.9.5/nvim-linux64.tar.gz
 tar xzvf nvim-linux64.tar.gz
 rm -rf nvim-linux64.tar.gz
-mv nvim-linux64 ~/.loca/bin/nvim
+mkdir -p ~/.config/bin/
+mv nvim-linux64 ~/.config/bin/nvim
 cd /usr/bin
-ln -s ~/nvim-linux64/bin/nvim nvim
-sudo ln -s ~/.local/bin/nvim/bin/nvim nvim
+ln -s ~/.config/bin/nvim/bin/nvim nvim
 ```
-
 ### lazyvim
 ```shell
 # https://www.lazyvim.org/installation
