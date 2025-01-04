@@ -124,6 +124,7 @@ sudo apt install tmux
 ```shell
 sudo apt-get update
 sudo apt-get install libmodule-build-perl
+cd ~/.config/tmux/rainbarf
 perl Build.PL
 ./Build test
 sudo ./Build install
