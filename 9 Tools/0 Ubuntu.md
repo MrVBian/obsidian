@@ -227,3 +227,9 @@ Icon=/home/zme/software/omniverse.png
 Terminal=false
 ```
 ![[omniverse.png]]
+
+# 12 磁盘
+```shell
+sudo apt install ncdu
+sudo ncdu /var/log
+```

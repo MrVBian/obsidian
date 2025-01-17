@@ -101,6 +101,42 @@ ros2 topic pub --once /auto_joint_cmd dual_arm_interfaces/msg/AutonomyJointComma
 
 ros2 topic echo /dual_arm_status | grep "gripper"
 
+
+ros2 topic pub --once /dual_arm_status dual_arm_interfaces/msg/DualArmStatus "{
+  left_arm_joints: [
+    {joint_name: {data: "left_joint1"}, joint_position: 0.0, joint_speed: 0.0, joint_current: 0.0, joint_torque: 0.0, joint_control: 0.0, joint_status: 4},
+    {joint_name: {data: "left_joint2"}, joint_position: 0.0, joint_speed: 0.0, joint_current: 0.0, joint_torque: 0.0, joint_control: 0.0, joint_status: 4},
+    {joint_name: {data: "left_joint3"}, joint_position: 0.0, joint_speed: 0.0, joint_current: 0.0, joint_torque: 0.0, joint_control: 0.0, joint_status: 4},
+    {joint_name: {data: "left_joint4"}, joint_position: 0.0, joint_speed: 0.0, joint_current: 0.0, joint_torque: 0.0, joint_control: 0.0, joint_status: 4},
+    {joint_name: {data: "left_joint5"}, joint_position: 0.0, joint_speed: 0.0, joint_current: 0.0, joint_torque: 0.0, joint_control: 0.0, joint_status: 4},
+    {joint_name: {data: "left_joint6"}, joint_position: 0.0, joint_speed: 0.0, joint_current: 0.0, joint_torque: 0.0, joint_control: 0.0, joint_status: 4},
+    {joint_name: {data: "left_joint7"}, joint_position: 0.0, joint_speed: 0.0, joint_current: 0.0, joint_torque: 0.0, joint_control: 0.0, joint_status: 4}
+  ],
+  right_arm_joints: [
+    {joint_name: {data: "right_joint1"}, joint_position: 0.0, joint_speed: 0.0, joint_current: 0.0, joint_torque: 0.0, joint_control: 0.0, joint_status: 4},
+    {joint_name: {data: "right_joint2"}, joint_position: 0.0, joint_speed: 0.0, joint_current: 0.0, joint_torque: 0.0, joint_control: 0.0, joint_status: 4},
+    {joint_name: {data: "right_joint3"}, joint_position: 0.0, joint_speed: 0.0, joint_current: 0.0, joint_torque: 0.0, joint_control: 0.0, joint_status: 4},
+    {joint_name: {data: "right_joint4"}, joint_position: 0.0, joint_speed: 0.0, joint_current: 0.0, joint_torque: 0.0, joint_control: 0.0, joint_status: 4},
+    {joint_name: {data: "right_joint5"}, joint_position: 0.0, joint_speed: 0.0, joint_current: 0.0, joint_torque: 0.0, joint_control: 0.0, joint_status: 4},
+    {joint_name: {data: "right_joint6"}, joint_position: 0.0, joint_speed: 0.0, joint_current: 0.0, joint_torque: 0.0, joint_control: 0.0, joint_status: 4},
+    {joint_name: {data: "right_joint7"}, joint_position: 0.0, joint_speed: 0.0, joint_current: 0.0, joint_torque: 0.0, joint_control: 0.0, joint_status: 4}
+  ],
+  left_arm_pose: {
+    position: {x: 0.0, y: 0.0, z: 0.0},
+    orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}
+  },
+  right_arm_pose: {
+    position: {x: 0.0, y: 0.0, z: 0.0},
+    orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}
+  },
+  left_gripper: {
+    gripper_position: 0.0,
+  },
+  right_gripper: {
+    gripper_position: 0.0,
+  }
+}"
+
 ```
 
 
@@ -196,3 +232,7 @@ https://www.orbbec.com.cn/index/Product/info.html?cate=38&id=55
 真机：最大速度90°/s
 
 ![[动力学参数.png]]
+
+
+
+
