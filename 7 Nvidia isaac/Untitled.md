@@ -71,3 +71,28 @@ Ubuntu 22.04
 
 
  Warning: in _ReportErrors at line 2890 of /builds/omniverse/usd-ci/USD/pxr/usd/usd/stage.cpp -- In </World/envs/env_0/Robot>: Could not open asset @http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.2/Isaac/IsaacLab/Robots/Classic/Cartpole/cartpole.usd@ for reference introduced by @anon:0x652bf7c76f00:World0.usd@</World/envs/env_0/Robot>. (recomposing stage on stage @anon:0x652bf7c76f00:World0.usd@ <0x652bf61e5660>)
+
+
+
+如下基于isaac lab的python代码启动isaac sim4.2：
+```python
+import argparse
+from omni.isaac.lab.app import AppLauncher
+parser = argparse.ArgumentParser(description="Pour wine stage.")    # create argparser
+AppLauncher.add_app_launcher_args(parser)   # append AppLauncher cli args
+args_cli = parser.parse_args()              # parse the arguments
+# app_launcher = AppLauncher(args_cli, settings={"rendering/preset": "Medium"})
+app_launcher = AppLauncher(args_cli)        # launch omniverse app
+simulation_app = app_launcher.app
+"""Rest everything follows."""
+from omni.isaac.lab.sim import SimulationCfg, SimulationContext
+
+def main():
+    sim_cfg = SimulationCfg(dt=0.01, device=args_cli.device)
+    sim = SimulationContext(sim_cfg)
+    world = World(stage_units_in_meters=1.0)
+    world.reset()
+
+    while simulation_app.is_running():
+        sim.step()  # step
+```

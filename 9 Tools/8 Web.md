@@ -12,14 +12,18 @@ npm run dev -- --host 0.0.0.0 --port 5173
 ```
 
 ```shell
-# 安装
-go get github.com/gin-gonic/gin
+# 初始化工程
+go mod init aichimili.com/demo
 
-# 更新
-go get -u github.com/gin-gonic/gin
+# 增加依赖
+go get github.com/gofiber/fiber/v2
+# 更新依赖
+go get -u github.com/gofiber/fiber/v2
 
 # 清理无效下载需要依赖
 go mod tidy
+
+go run server.go
 ```
 
 # 1 Vue
