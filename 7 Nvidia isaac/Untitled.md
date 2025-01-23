@@ -96,3 +96,35 @@ def main():
     while simulation_app.is_running():
         sim.step()  # step
 ```
+
+
+以下是isaac lab推荐的机器人控制代码
+```python
+            # reset the scene entities
+            # root state
+            # we offset the root state by the origin since the states are written in simulation world frame
+            # if this is not done, then the robots will be spawned at the (0, 0, 0) of the simulation world
+            root_state = robot.data.default_root_state.clone()
+            root_state[:, :3] += origins
+            robot.write_root_link_pose_to_sim(root_state[:, :7])
+            robot.write_root_com_velocity_to_sim(root_state[:, 7:])
+            # set joint positions with some noise
+            joint_pos, joint_vel = robot.data.default_joint_pos.clone(), robot.data.default_joint_vel.clone()
+            joint_pos += torch.rand_like(joint_pos) * 0.1
+            robot.write_joint_state_to_sim(joint_pos, joint_vel)
+            # clear internal buffers
+            robot.reset()
+```
+下面是我写的版本，targetPositions是关节值，弧度
+```python
+            targetPositions = []
+
+            # 如果在目标关节角度字典中，则使用目标角度，否则使用当前角度
+            for i in range(len(jointName)):
+                if jointName[i] in jointTargets:
+                    targetPositions.append(jointTargets[jointName[i]])
+                else:
+                    targetPositions.append(0)  # 维持当前角度
+            dc.set_articulation_dof_position_targets(art, targetPositions)
+```
+我的版本中set_articulation_dof_position_targets是错的，帮我改成isaac lab推荐的版本
