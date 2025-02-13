@@ -232,4 +232,7 @@ Terminal=false
 ```shell
 sudo apt install ncdu
 sudo ncdu /var/log
+
+# rm
+sudo rm /var/log/syslog
 ```

@@ -144,6 +144,16 @@ ros2 topic pub --once /dual_arm_status dual_arm_interfaces/msg/DualArmStatus "{
 ros2 run arm_executer arm_executer 
 ```
 
+
+|               |     |
+| ------------- | --- |
+| base_link<br> | 200 |
+| lifting       | 46  |
+| left_wheel    | 100 |
+| font_driver   | 10  |
+| rear_driver   | 10  |
+
+
 # 1 双臂
 ## 1.1 获取Isaac机器人姿态
 **请求方式：Ros Topic**

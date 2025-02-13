@@ -154,6 +154,11 @@ bash ./install.sh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
+```shell
+git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
+```
+
 - discord
 - htop
 
