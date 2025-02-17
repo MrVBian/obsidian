@@ -1,3 +1,4 @@
+[4.5安装](https://blog.csdn.net/Clam_dw/article/details/145447273)
 # 0 概述
 https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html
 ```shell
@@ -52,7 +53,8 @@ https://developer.nvidia.com/blog/author/asawareeb/
 ##  Isaac Lab Ecosystem
 https://isaac-sim.github.io/IsaacLab/main/source/setup/ecosystem.html
 ![[Pasted image 20241212193905.png]]
-
+![[Pasted image 20250214152435.png]]
+![[Pasted image 20250214152443.png]]
 [参考架构](https://isaac-sim.github.io/IsaacLab/main/source/refs/reference_architecture/index.html)
 
 ## 解决Isaac Sim资源获取不到问题
