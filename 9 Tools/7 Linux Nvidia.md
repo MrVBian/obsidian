@@ -34,7 +34,7 @@ lspci | grep -i vga
 返回的是一个十六进制数字代码**1e04**
 
 在以下网站内检索十六进制数字代码**1e04**，即可查看显卡型号。
-http://pci-ids.ucw.cz/mods/PC/10de?action=help?help=pci【该网站需要翻墙】
+http://pci-ids.ucw.cz/mods/PC/10de?action=help?help=pci
 ![[Pasted image 20241017200053.png]]
 
 ## 1 系统自带软件安装

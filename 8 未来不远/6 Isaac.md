@@ -13,6 +13,10 @@ ros2 run arm_executer arm_executer
 
 
 ros2 service call /zmebot_trajectory_following dual_arm_interfaces/srv/TrajectoryFollowing "{trajectory_mode: 4}"
+
+indices = [0, 3, 4, 5, 6, 7, 8, 9, 16, 12, 13, 14, 15, 11, 18, 20, 22, 24, 26, 28, 33, 34, 35, 36, 39, 40]
+
+dof_pos_scaled[indices] = 0
 ```
 
 
@@ -50,46 +54,47 @@ ros2 service call /zmebot_trajectory_following dual_arm_interfaces/srv/Trajector
 
 
 
-- rotate_base_joint
-- lifting_base_joint
-- left_font_steering_joint1
-- left_rear_steering_joint3
-- left_whee_joint
-- right_font_steering_joint2
-- right_rear_steering_joint4
-- right_whee_joint
-- gimbal_joint1
-- left_joint1
-- right_joint1
-- left_font_drive_joint1
-- left_rear_drive_joint3
-- right_font_drive_joint2
-- right_rear_drive_joint4
-- gimbal_joint2
-- left_joint2
-- right_joint2
-- left_joint3
-- right_joint3
-- left_joint4
-- right_joint4
-- left_joint5
-- right_joint5
-- left_joint6
-- right_joint6
-- left_joint7
-- right_joint7
-- left_finger_joint1
-- left_finger_joint2
-- ll_tool_joint3
-- lr_tool_joint3
-- right_finger_joint1
-- right_finger_joint2
-- rl_tool_joint3
-- rr_tool_joint3
-- lr_tool_joint2
-- ll_tool_joint2
-- rr_tool_joint2
-- rl_tool_joint2
+
+rotate_base_joint
+lifting_base_joint
+left_font_steering_joint1
+left_rear_steering_joint3
+left_whee_joint
+right_font_steering_joint2
+right_rear_steering_joint4
+right_whee_joint
+gimbal_joint1
+left_joint1
+right_joint1
+left_font_drive_joint1
+left_rear_drive_joint3
+right_font_drive_joint2
+right_rear_drive_joint4
+gimbal_joint2
+left_joint2
+right_joint2
+left_joint3
+right_joint3
+left_joint4
+right_joint4
+left_joint5
+right_joint5
+left_joint6
+right_joint6
+left_joint7
+right_joint7
+left_finger_joint1
+left_finger_joint2
+ll_tool_joint3
+lr_tool_joint3
+right_finger_joint1
+right_finger_joint2
+rl_tool_joint3
+rr_tool_joint3
+lr_tool_joint2
+ll_tool_joint2
+rr_tool_joint2
+rl_tool_joint2
 ```
 
 ```shell

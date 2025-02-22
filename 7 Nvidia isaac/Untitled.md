@@ -128,3 +128,11 @@ def main():
             dc.set_articulation_dof_position_targets(art, targetPositions)
 ```
 我的版本中set_articulation_dof_position_targets是错的，帮我改成isaac lab推荐的版本
+
+
+
+isaaclab下用vscode开发
+```python
+from isaaclab_assets import H1_CFG
+```
+以上代码，可以正确运行，但是VSCode没办法跳转到H1_CFG下，如何配置VSCode，可以使其正常跳转
