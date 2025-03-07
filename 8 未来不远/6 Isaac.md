@@ -98,11 +98,14 @@ rl_tool_joint2
 ```
 
 ```shell
+# 直接给isaac下发控制指令
 ros2 topic pub --once /isaac_joint_command sensor_msgs/JointState '{header: {stamp: {sec: 1720861606, nanosec: 489197117}, frame_id: ""}, name: ["right_joint1", "right_joint2", "right_joint3", "right_joint4", "right_joint5", "right_joint6", "right_joint7", "left_joint1", "left_joint2", "left_joint3", "left_joint4", "left_joint5", "left_joint6", "left_joint7", "left_finger_joint1", "left_finger_joint2", "right_finger_joint1", "right_finger_joint2"], position: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 0, 1, 1]}'
 
-
+# 给executer下发控制指令
+ros2 service call /zmebot_trajectory_following dual_arm_interfaces/srv/TrajectoryFollowing "{trajectory_mode: 4}"
 
 ros2 topic pub --once /auto_joint_cmd dual_arm_interfaces/msg/AutonomyJointCommand "{left_joint_command: [{joint_position: 0.2},{joint_position: 0.2},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0}],right_joint_command: [{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0},{joint_position: 0.0}]}"
+
 
 ros2 topic echo /dual_arm_status | grep "gripper"
 
@@ -150,13 +153,7 @@ ros2 run arm_executer arm_executer
 ```
 
 
-|               |     |
-| ------------- | --- |
-| base_link<br> | 200 |
-| lifting       | 46  |
-| left_wheel    | 100 |
-| font_driver   | 10  |
-| rear_driver   | 10  |
+
 
 
 # 1 双臂
@@ -247,6 +244,37 @@ https://www.orbbec.com.cn/index/Product/info.html?cate=38&id=55
 真机：最大速度90°/s
 
 ![[动力学参数.png]]
+
+
+| link          | mass |
+| ------------- | ---- |
+| base_link<br> | 200  |
+| lifting       | 46   |
+| left_wheel    | 100  |
+| font_driver   | 10   |
+| rear_driver   | 10   |
+
+| joint                           | Max Vel               | Max Force                | Damping  | Stiffness         |
+| ------------------------------- | --------------------- | ------------------------ | -------- | ----------------- |
+| rotate_base_joint               | 10000                 | 150                      | 1745.33  | 17453293764608    |
+| lifting_base_joint              | 34028234663852886e+38 | 34028234663852886e+38    | 100000.0 | 999999986991104.0 |
+| gimbal_joint[1-2]               | 34028234663852886e+38 | 34028234663852886e+38    | 1745.33  | 17453293764608    |
+| (left\|right)_joint[1-7]        | 10000                 | 1000                     | 1745.33  | 17453293764608    |
+| (left\|right)_finger_joint[1-2] | 60                    | 150                      | 1745.33  | 17453293764608    |
+| (l\|r)(l\|r)_tool_joint[1-3]    | 34028234663852886e+38 | 含Mimic Joint             |          |                   |
+|                                 |                       |                          |          |                   |
+| (left\|right)_whee_joint        | 10000                 | 34028234663852886e+38    | 1745.33  | 17453293764608    |
+| .*_steering_joint[1-4]          | 34028234663852886e+38 | No Drive; No Joint State |          |                   |
+| .*_drive_joint[1-4]             | 34028234663852886e+38 | No Drive; No Joint State |          |                   |
+| .._gripper_link2                | Create Contact_Sensor |                          |          |                   |
+
+| Joint            | Damping | Restitution | Stiffness  |
+| ---------------- | ------- | ----------- | ---------- |
+| left_joint[1-7]  | 15      | 0.00008     | 9380.59961 |
+| right_joint[1-7] | 15      | 0.00008     | 9380.59961 |
+
+
+
 
 
 

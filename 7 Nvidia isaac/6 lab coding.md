@@ -17,6 +17,54 @@
 # Zme拉抽屉
 ```
 
+```log
+1200 353
+1100
+################################################################################
+                      Learning iteration 1100/1500
+
+                       Computation: 94845 steps/s (collection: 0.539s, learning 0.152s)
+               Value function loss: 52.8633
+                    Surrogate loss: 0.0007
+             Mean action noise std: 0.10
+                 Mean total reward: 2916.02
+               Mean episode length: 499.00
+          Mean episode dist_reward: 1.4054
+           Mean episode rot_reward: 1.3370
+          Mean episode open_reward: 2.8265
+       Mean episode action_penalty: -0.0467
+Mean episode left_finger_distance_reward: 0.0523
+Mean episode right_finger_distance_reward: 0.0290
+  Mean episode finger_dist_penalty: -0.0084
+--------------------------------------------------------------------------------
+                   Total timesteps: 72155136
+                    Iteration time: 0.69s
+                        Total time: 770.13s
+                               ETA: 279.8s
+################################################################################
+                      Learning iteration 1499/1500
+
+                       Computation: 99856 steps/s (collection: 0.509s, learning 0.147s)
+               Value function loss: 310.5571
+                    Surrogate loss: -0.0020
+             Mean action noise std: 0.09
+                 Mean total reward: 2947.25
+               Mean episode length: 490.91
+          Mean episode dist_reward: 1.3915
+           Mean episode rot_reward: 1.3306
+          Mean episode open_reward: 2.5085
+       Mean episode action_penalty: -0.0558
+Mean episode left_finger_distance_reward: 0.0606
+Mean episode right_finger_distance_reward: 0.0204
+  Mean episode finger_dist_penalty: -0.0169
+--------------------------------------------------------------------------------
+                   Total timesteps: 98304000
+                    Iteration time: 0.66s
+                        Total time: 1032.43s
+                               ETA: 0.7s
+
+```
+
 学习笔记：[Isaac Lab Hub](https://lycheeai.notion.site/Isaac-Lab-Hub-17928763942b808289f4c2f01154954d)
 # 0 术语
 - Markov Decision Processes（MDP）  
