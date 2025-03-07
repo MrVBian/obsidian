@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "6 Isaac"
             }
+          },
+          {
+            "id": "ac2e1f24ec2b2bac",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +155,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8 未来不远/6 Isaac.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 6 Isaac"
+              "title": "Outline"
             }
           }
         ],
@@ -174,7 +186,7 @@
       "html-server:Turn Http Server Off": false
     }
   },
-  "active": "37e426448b71eb9e",
+  "active": "ac2e1f24ec2b2bac",
   "lastOpenFiles": [
     "8 未来不远/7 Dmp SDK(Pybind).md",
     "8 未来不远/2 ROS接口.md",
