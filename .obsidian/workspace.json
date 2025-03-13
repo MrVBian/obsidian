@@ -8,33 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "37e426448b71eb9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "8 未来不远/6 Isaac.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6 Isaac"
-            }
-          },
-          {
             "id": "ac2e1f24ec2b2bac",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "excalidraw",
               "state": {
-                "currentVersion": "1.8.9"
+                "file": "8 未来不远/思维导图.md"
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "icon": "excalidraw-icon",
+              "title": "思维导图"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,12 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "8 未来不远/思维导图.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 思维导图"
             }
           }
         ],
@@ -168,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,30 +175,31 @@
   },
   "active": "ac2e1f24ec2b2bac",
   "lastOpenFiles": [
+    "8 未来不远/6 Isaac.md",
+    "7 Nvidia isaac/0 学习笔记.md",
+    "8 未来不远/机器人.md",
+    "工作规划.md",
+    "8 未来不远/5 上位机部署.md",
     "8 未来不远/7 Dmp SDK(Pybind).md",
-    "8 未来不远/2 ROS接口.md",
-    "7 Nvidia isaac/6 lab coding.md",
-    "7 Nvidia isaac/5 Imitation.md",
     "7 Nvidia isaac/4 Isaac Lab install.md",
+    "7 Nvidia isaac/6 lab coding.md",
+    "8 未来不远/3 上位机接口.md",
+    "8 未来不远/2 ROS接口.md",
+    "7 Nvidia isaac/5 Imitation.md",
     "7 Nvidia isaac/3 数字模型.md",
     "7 Nvidia isaac/2 常用笔记.md",
     "7 Nvidia isaac/1 环境安装.md",
-    "7 Nvidia isaac/0 学习笔记.md",
-    "8 未来不远/6 Isaac.md",
     "8 未来不远/assets/Pasted image 20250307175714.png",
     "8 未来不远/assets/Pasted image 20250307175606.png",
     "8 未来不远/assets/动力学参数.png",
     "9 Tools/10 Pybind11.md",
-    "工作规划.md",
     "9 Tools/1 Docker & Server.md",
     "临时.md",
     "9 Tools/0 Ubuntu.md",
-    "8 未来不远/机器人.md",
     "8 未来不远/ssh.md",
     "8 未来不远/接口文档.md",
     "7 Nvidia isaac/Untitled.md",
     "8 未来不远/4 双臂控制.md",
-    "8 未来不远/5 上位机部署.md",
     "8 未来不远/assets/Pasted image 20250303112255.png",
     "9 Tools/11 digital people.md",
     "8 未来不远/思维导图.md",
@@ -224,7 +212,6 @@
     "assets",
     "7 Nvidia isaac/assets/Pasted image 20241017153116.png",
     "7 Nvidia isaac/assets/Pasted image 20250214152443.png",
-    "9 Tools/1 Server.md",
     "Excalidraw/Untitled.canvas",
     "8 未来不远/assets",
     "8 未来不远/0 数采/assets",
