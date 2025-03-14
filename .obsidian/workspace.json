@@ -11,12 +11,14 @@
             "id": "ac2e1f24ec2b2bac",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "8 未来不远/思维导图.md"
+                "file": "工作规划.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "思维导图"
+              "icon": "lucide-file",
+              "title": "工作规划"
             }
           }
         ]
