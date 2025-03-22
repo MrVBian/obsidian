@@ -79,6 +79,12 @@ https://github.com/MrVBian/nvim
 - .oh-my-zsh
 - .p10k.zsh
 - .zshrc
+```shell
+git clone git@github.com:MrVBian/config.git
+cd config
+sudo chmod +x install.sh
+./install.sh
+```
 ## alacritty
 ```shell
 sudo add-apt-repository ppa:aslatter/ppa
@@ -199,7 +205,6 @@ https://code.visualstudio.com/
 ```
 Isaac Sim VS Code Edition
 docker
-
 ```
 
 ## Omniverse
