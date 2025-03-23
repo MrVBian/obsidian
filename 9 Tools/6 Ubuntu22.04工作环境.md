@@ -13,6 +13,16 @@
 | 最大化窗口   | A+上     |
 ## 环境变量
 ```shell
+vim .ssh/config
+```
+
+```config
+Host github.com
+    User git
+    ProxyCommand nc -x 127.0.0.1:7897 %h %p
+```
+
+```shell
 export TERMINAL="alacritty"
 alias sudo='sudo '
 alias nv='nvim'
@@ -48,6 +58,16 @@ XSOCK=/tmp/.X11-unix
 ```
 ## gnome
 [https://extensions.gnome.org/local/](https://extensions.gnome.org/local/)
+
+```shell
+sudo apt install gnome-shell gnome-tweaks gnome-shell-extension-manager gnome-shell-extensions
+```
+
+```
+Coverflow Alt-Tab  
+Dash to Dock  
+```
+
 ```
  AppIndicator and KStatusNotifierItem Support  
  Audio Switcher  

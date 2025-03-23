@@ -20,7 +20,7 @@ sudo systemctl start docker
 ```
 ```shell
 sudo groupadd docker               #添加用户组
-sudo gpasswd -a username docker    #将当前用户添加至用户组
+sudo usermod -aG docker ${USER}    #将当前用户添加至用户组
 newgrp docker                      #更新用户组
 sudo service docker restart
 ```
