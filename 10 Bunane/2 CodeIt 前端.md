@@ -14,6 +14,10 @@ SVG阅览(Window)：[https://github.com/tibold/svg-explorer-extension](https://g
 - 由 Vite 驱动
 - Bulma 框架(基于 Flexbox 的轻量级 CSS 框架。原生适合移动和平板)
 
+```cmd
+$env:HTTP_PROXY = "http://127.0.0.1:7897"
+$env:HTTPS_PROXY = "http://127.0.0.1:7897"
+```
 
 ```cmd
 pnpm add typescript@4.x -D

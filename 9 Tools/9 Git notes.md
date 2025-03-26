@@ -5,3 +5,28 @@
 - refactor：重构（即不是新增功能，也不是修改bug的代码变动）
 - test：添加测试或者修改现有测试
 - chore：不修改src或者test的其余修改，例如构建过程或辅助工具的变动
+
+丢弃本地所有修改
+```shell
+git checkout .
+```
+# Git SSH Agent
+```config
+ProxyCommand connect -S 127.0.0.1:7897 -a none %h %p
+
+Host github.com
+  User git
+  Port 22
+  Hostname github.com
+  # 注意修改路径为你的路径
+  IdentityFile "C:\Users\zhenwei.bian\.ssh\id_rsa"
+  TCPKeepAlive yes
+
+Host ssh.github.com
+  User git
+  Port 443
+  Hostname ssh.github.com
+  # 注意修改路径为你的路径
+  IdentityFile "C:\Users\zhenwei.bian\.ssh\id_rsa"
+  TCPKeepAlive yes
+```
