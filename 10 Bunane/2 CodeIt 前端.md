@@ -21,9 +21,43 @@ $env:HTTPS_PROXY = "http://127.0.0.1:7897"
 
 ```cmd
 pnpm add typescript@4.x -D
-
-# PowerShell 或 CMD
-$env:HTTP_PROXY = "http://127.0.0.1:7897"
-$env:HTTPS_PROXY = "http://127.0.0.1:7897"
-pnpm dev
+pnpm add vite-plugin-pwa@latest # 去除警告
 ```
+
+```cmd
+pnpm dev
+pnpm run build
+```
+
+
+12 动画便签
+13 交互视频、自动轮播便签
+9 视觉美观布局
+21 顺序布局
+
+about-1 数字滚动、交互便签
+
+
+pricing
+- 2 交互浮动便签
+- 6 平滑价格选择
+- 9 交互浮动便签、自动轮播客户评价
+- 8 平滑深色价格选择
+
+客户流动：https://vulk.cssninja.io/blocks/advanced/clients
+
+blob：(OJ风格学习)
+https://vulk.cssninja.io/blog/posts-4
+https://vulk.cssninja.io/blog/posts-10
+
+
+留言模块：长方形描边内容框
+https://vulk.cssninja.io/blocks/testimonials
+
+feature blocks动画标签：block3\4  https://vulk.cssninja.io/blocks/features#block-c-demo
+
+
+princing page:
+- 1、4、6、8
+
+https://vulk.cssninja.io/pricing/pricing-1
