@@ -1,0 +1,18 @@
+# Obsidian 特定忽略规则
+.obsidian/cache/
+.obsidian/workspace.json
+.obsidian/backups/
+.obsidian/trash.json
+.obsidian/hotkeys-leader.json
+.obsidian/.git
+.obsidian/.sr-tmp-hashes
+.obsidian/*.session
+.obsidian/*.lock
+.obsidian/*.log
+.obsidian/*.bak
+
+
+# 通用忽略规则
+.DS_Store
+*.tmp
+*.swp

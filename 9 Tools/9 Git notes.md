@@ -8,7 +8,7 @@
 
 丢弃本地所有修改
 ```shell
-git checkout .
+git reset --hard HEAD && git clean -df
 ```
 # Git SSH Agent
 ```config
