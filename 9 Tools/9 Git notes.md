@@ -10,6 +10,10 @@
 ```shell
 git reset --hard HEAD && git clean -df
 ```
+完全丢弃最近的 commit
+```shell
+git reset --hard HEAD~1
+```
 # Git SSH Agent
 ```config
 ProxyCommand connect -S 127.0.0.1:7897 -a none %h %p
