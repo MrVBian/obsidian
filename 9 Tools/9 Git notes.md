@@ -14,6 +14,10 @@ git reset --hard HEAD && git clean -df
 ```shell
 git reset --hard HEAD~1
 ```
+恢复文件夹
+```shell
+git checkout HEAD -- path/to/folder/
+```
 # Git SSH Agent
 ```config
 ProxyCommand connect -S 127.0.0.1:7897 -a none %h %p
