@@ -2,7 +2,9 @@
 文档：[https://docs.cssninja.io/vulk/guide/getting-started.html](https://docs.cssninja.io/vulk/guide/getting-started.html)
 [购买链接](https://themeforest.net/item/vulk-multipurpose-vue-3-ssr-sass-landing-pages-ui-kit/36586175?utm_medium=demo&utm_source=buy_vulk&_gl=1*1dgqkng*_gcl_au*MjAwNjI2NDgzMi4xNzQyODEyNDQ3*FPAU*MjAwNjI2NDgzMi4xNzQyODEyNDQ3*_ga*MTUwMDcwOTIyNS4xNzQyODEyNDQ3*_ga_8YBG6FVEMD*MTc0MjgxNTY4Mi4yLjEuMTc0MjgxNzEyMS4wLjAuMA..*_fplc*R2xrJTJCJTJCMFV5cnkzVXlYMEY0WE9oSEY5ZlhoOFVWOEJ2TDhPMTgxNWsxMFYwTWp2ZG9weW5xeSUyRllxNXVzaU9JYVQ2WFlhU2lJQWZ2bVFNbWtsRXU2ZzVBeSUyRnM0VW9FemJUMU9lUmZHOGslMkZVaWNQT2g3a2lDQldWSyUyRm5Xa3JnJTNEJTNE)
 
-SVG阅览(Window)：[https://github.com/tibold/svg-explorer-extension](https://github.com/tibold/svg-explorer-extension)
+[仪表盘vuero **Electron**](https://themeforest.net/item/vuero-vuejs-3-admin-and-webapp-ui-kit/31053035?s_rank=5)
+[仪表盘Tairo **Tailwind**](https://themeforest.net/item/tairo-multipurpose-nuxt-tailwind-css-dashboard-system/45383013?s_rank=2)
+
 # 环境
 
 #### Vulk v2.0.1 依赖p
