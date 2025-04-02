@@ -31,6 +31,18 @@ pnpm dev
 pnpm run build
 ```
 
+```css
+/* 渐变字 */
+.color1 span {
+  background:linear-gradient(100.07deg,#2d61fc .83%,#9362ed 34.35%,#f06195 73.39%,#fca1ad 102.87%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.color2 {
+	background:linear-gradient(99.45deg,#2d61fc 5.47%,#cb5bff 88.9%);
+}
+```
 
 12 动画便签
 13 交互视频、自动轮播便签

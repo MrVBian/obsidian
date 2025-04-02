@@ -236,3 +236,10 @@ sudo ncdu /var/log
 # rm
 sudo rm /var/log/syslog
 ```
+# 13 Frp
+## Server
+```shell
+wget https://github.com/fatedier/frp/releases/download/v0.61.2/frp_0.61.2_linux_amd64.tar.gz
+tar -zxvf frp_0.61.2_linux_amd64.tar.gz
+cd frp_0.61.2_linux_amd64/
+```
