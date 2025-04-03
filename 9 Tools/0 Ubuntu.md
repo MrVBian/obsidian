@@ -237,9 +237,100 @@ sudo ncdu /var/log
 sudo rm /var/log/syslog
 ```
 # 13 Frp
-## Server
+下载：
 ```shell
 wget https://github.com/fatedier/frp/releases/download/v0.61.2/frp_0.61.2_linux_amd64.tar.gz
 tar -zxvf frp_0.61.2_linux_amd64.tar.gz
 cd frp_0.61.2_linux_amd64/
+
+
+sudo cp /path/to/your/frpc /usr/local/bin/
+```
+## 配置开机自启
+
+```shell
+cd /etc/systemd/system/
+sudo vim frpc.service
+```
+service文件：
+```service
+[Unit]
+Description=frpc
+After=network.target
+Wants=network.target
+
+[Service]
+Restart=on-failure
+RestartSec=5
+ExecStart=/home/username/Software/frp/frpc -c /home/username/Software/frp/frpc.ini
+
+[Install]
+WantedBy=multi-user.target
+```
+开机自启：
+```shell
+# 刷新服务列表
+sudo systemctl daemon-reload
+# 设置开机自启
+sudo systemctl enable frpc.service
+# 启动服务
+sudo systemctl start frpc.service
+```
+## Server
+```toml
+bindPort = 10000
+
+auth.method = "token"   #服务端连接身份认证，默认token
+# 服务端token密码
+auth.token = ""
+
+# 允许监听的端口范围（供多个笔记本使用）
+allowPorts = [
+  { start = 10001, end = 10020 }
+]
+```
+
+## Client
+```toml
+# frpc.toml
+serverAddr = ""
+serverPort = 10000
+auth.token = ""
+
+[[proxies]]
+name = "ssh"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 22
+remotePort = 10001
+
+[[proxies]]
+name = "mariadb"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 3306
+remotePort = 10002
+
+[[proxies]]
+name = "oj_80"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 80
+remotePort = 10010
+
+[[proxies]]
+name = "oj_443"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 443
+remotePort = 10011
+```
+## Terminal
+```shell
+ssh -p 端口 内网服务器的用户名@公网服务器的IP
+```
+
+曲师大校园网Frp：
+```
+tkTdSxdFXxRkPVBvdJVUVv2cxpt7SeVUAvrDhsbEUXRMdYvMyNY3GU7tKmNC5B4G58mTEKGYR35NN2KBmF547UdxmH4sWCcB2HBfcw7DBkJ554FE5XkVyY75AH6QbtG7MZj4GwbJu5fMYNuVbSGETGyjvpuf7MJAYHpvWteEmp2QxG2Xjcy8PS7887EHF2Gx5AzRteCBdRVZV86YkS8sHpjnCdUkyy3Dt8X5fp6WhxePpmMsaU5p3hVHWzSDwtVf5d8Y4THxK833GHjXKw7zJZ2GQXK2csuxYtaxr8rNXwsH3ukM5QTVuMzhPKEc7jXC6bZD4RUuaR4H4BGeKwBcbku4vfhfcRdN8KyBnF2zQS3AVUbvasr6fbwPvHpNPDb7f7rdRGyDrV54wQByU2S8KVuVXnCYxHJ8fkucYfK7TfyeyS6rhzxJR6DvQFwZRZDKvf2VVxnWWF2RK58TSwHtCFdAK3sQaMnN4wRz5zpTTe268MH5cDckB5w63VN7zPEmhKMWnMTepjuNvP2NsfhZJhCD7y7tBKpWUE5A3HHfCXvj6SmyXw3vUbTWeWp3N6mGdceh6haFzF475Va5mF83Q2UWc2vXNmKjnEZsRDBfxkZ45GKYXw2tjStFE5n7e8mRtkJZvYJkQ3zXkw4Rnx3xjWrV4jFBwYT5pEtQfszBwQhUr2nfZ8C3R63RrZZ23VEcwVTukkGaacGxDzzdNUPZmZt47B3tGaTKfT8BXVxGDeKCX8PEtfFe3TFsh5YAA5QP8Te5QNtebHH8aVkb2NCASQtHzfY6tcxHTQUfHembKYMMshQJZdGWSTaftGyYbDYUCMZb8Vy5bVEfJWXXmWm4MVGPjSvDpRyRQRHGKhNMPvdQD78DsVt46S6t7DSsPRyxDQt2FAE8YBxmAJ5cUcSrWhtK7bcDT5xUk3WTWWcvFASAWm4HEUC3uF68xe5aGdMRbHvuYeEGek4TQnM57yXbH8x6WzjUzBQpEKDdyhBtnkC2U7eDRAFNGKwf4GDBPNZC
 ```
