@@ -100,7 +100,7 @@ https://github.com/MrVBian/nvim
 - .p10k.zsh
 - .zshrc
 ```shell
-git clone git@github.com:MrVBian/config.git
+git clone https://github.com/MrVBian/config.git
 cd config
 sudo chmod +x install.sh
 ./install.sh
@@ -194,6 +194,39 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/cu
 mv ./FiraCode /usr/share/fonts
 ```
 ![[Pasted image 20241017144254.png]]
+
+
+
+## 仅配置终端
+
+```shell
+# zsh
+sudo apt install zsh
+# 将zsh设置为默认shell
+chsh -s /bin/zsh
+
+# oh-my-zsh
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh
+bash ./install.sh
+# 命令行命令键入时的历史命令建议插件
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+
+# ranger
+sudo apt-get install ranger
+# image
+# 安装
+sudo wget -O /usr/local/bin/imgcat https://iterm2.com/utilities/imgcat
+#为文件添加权限
+sudo chmod 777 /usr/local/bin/imgcat
+
+
+# tmux 
+sudo apt install tmux
+# ~/.tmux.conf 修改设置默认为zsh
+# set -g default-shell /bin/zsh
+```
+
 # 2 软件
 ## Fzf
 ```shell
