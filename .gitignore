@@ -1,4 +1,4 @@
-# Obsidian 特定忽略规则
+﻿# Obsidian 特定忽略规则
 .obsidian/cache/
 .obsidian/workspace.json
 .obsidian/backups/
@@ -11,6 +11,8 @@
 .obsidian/*.log
 .obsidian/*.bak
 
+.obsidian/app.json
+.obsidian/appearance.json
 
 # 通用忽略规则
 .DS_Store
