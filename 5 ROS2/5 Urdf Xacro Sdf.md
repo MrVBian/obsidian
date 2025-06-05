@@ -18,6 +18,8 @@ pip install jupyterlab
 pip install notebook
 pip install jupyterlab-urdf
 # jupyterlab启动插件
+
+jupyter-lab
 ```
 
 ## 1.2 ros-urdf
