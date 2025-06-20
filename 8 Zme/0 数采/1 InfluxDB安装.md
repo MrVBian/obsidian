@@ -75,3 +75,101 @@ cp influxdb2-client-2.6.1-linux-arm64/influx /usr/local/bin/
 influx setup --org="zme" --bucket="ros" --username="admin" --password="zme123456" --token="I1BdLj3po_Ra4uKqE8t_bl3zrUYZuOg2TCQTBAA6KyCvss5GX4d8RBpevdcEowl88FfZdc8BRgNG81L5XF9Yfg==" --retention=360m --force
 ```
 [面板](http://172.30.24.201:3000/?orgId=1)
+
+## 6.3 卸载
+
+```shell
+sudo systemctl stop influxdb.service 
+sudo dpkg -r influxdb2
+sudo rm -rf /var/lib/influxdb
+sudo rm -rf /etc/influxdb
+
+
+sudo dpkg -i influxdb2_2.7.6-1_amd64.deb
+sudo systemctl stop influxdb.service 
+```
+
+## 6.4 初始化脚本
+
+```shell
+#!/bin/bash
+
+# InfluxDB 2 初始化脚本（修复保留策略问题）
+INFLUX_HOST="http://127.0.0.1:8086"
+
+# 配置参数
+ORG_NAME="zme"
+BUCKET_NAME="ros"
+ADMIN_USER="admin"
+ADMIN_PASSWORD="zme123456"
+API_TOKEN="I1BdLj3po_Ra4uKqE8t_bl3zrUYZuOg2TCQTBAA6KyCvss5GX4d8RBpevdcEowl88FfZdc8BRgNG81L5XF9Yfg=="
+RETENTION_DURATION="72h" # 关键修复：使用持续时间字符串而非数字
+
+# 服务检查函数
+check_service() {
+  if curl -s -v "$INFLUX_HOST/ping" 2>&1 | grep -q "204 No Content"; then
+    echo "✅ InfluxDB服务可用"
+    return 0
+  fi
+  return 1
+}
+
+# 主服务检查
+if check_service; then
+  echo "开始初始化InfluxDB..."
+  echo "--------------------------------------------"
+  echo "组织名称: $ORG_NAME"
+  echo "存储桶: $BUCKET_NAME"
+  echo "用户名: $ADMIN_USER"
+  echo "保留周期: $RETENTION_DURATION"
+
+  # 调用设置API（使用持续时间字符串）
+  echo "发送初始化请求到: $INFLUX_HOST/api/v2/setup"
+  response=$(
+    curl -s -o response.json -w "%{http_code}" \
+      -X POST "$INFLUX_HOST/api/v2/setup" \
+      -H "Content-Type: application/json" \
+      -d @- <<EOF
+{
+  "username": "$ADMIN_USER",
+  "password": "$ADMIN_PASSWORD",
+  "org": "$ORG_NAME",
+  "bucket": "$BUCKET_NAME",
+  "token": "$API_TOKEN",
+  "retentionPeriod": "$RETENTION_DURATION"
+}
+EOF
+  )
+
+  # 处理响应
+  echo "收到响应状态: $response"
+  case $response in
+  201)
+    echo "--------------------------------------------"
+    echo "✅ 初始化成功！"
+    echo "--------------------------------------------"
+    echo "访问地址: $INFLUX_HOST"
+    echo "用户名: $ADMIN_USER"
+    echo "密码: $ADMIN_PASSWORD"
+    echo "API Token: $API_TOKEN"
+    ;;
+  409)
+    echo "--------------------------------------------"
+    echo "⚠️ 系统已经初始化过 (HTTP 409)"
+    ;;
+  *)
+    echo "--------------------------------------------"
+    echo "❌ 初始化失败 (HTTP $response)"
+    echo "错误详情:"
+    [ -f response.json ] && cat response.json || echo "无额外错误信息"
+    exit 1
+    ;;
+  esac
+
+  rm -f response.json
+else
+  echo "❌ 无法连接到InfluxDB服务"
+  echo "请手动检查服务状态：curl -I $INFLUX_HOST/ping"
+  exit 1
+fi
+```
