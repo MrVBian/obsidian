@@ -18,6 +18,17 @@ git reset --hard HEAD~1
 ```shell
 git checkout HEAD -- path/to/folder/
 ```
+
+
+基于当前分支创建并切换到新的 `feat/test` 分支
+```shell
+git checkout -b feat/test
+git add 
+git commit -m "fix:"
+
+git push --set-upstream origin feat/test
+```
+
 # Git SSH Agent
 ## 1 Window
 
