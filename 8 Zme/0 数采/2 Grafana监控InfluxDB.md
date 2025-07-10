@@ -62,7 +62,7 @@ docker run -d --name grafana --net host grafana/grafana
 # -v yourpath:/var/lib/grafana
 ```
 
-| 服务       | 网址                        | 用户 : 密码         |
+| 服务         | 网址                          | 用户 : 密码             |
 | ---------- | --------------------------- | ------------------- |
 | **Gafana** | http://127.0.0.1:3000/login | **admin:zme123456** |
 ## 2.2 获取Influxdb token

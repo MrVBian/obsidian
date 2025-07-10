@@ -18,7 +18,20 @@ git reset --hard HEAD~1
 ```shell
 git checkout HEAD -- path/to/folder/
 ```
+**完全丢弃本地所有修改，强制同步远程最新版本**
+```shell
+# 1. 重置所有已修改的文件（丢弃所有未提交的更改）
+git reset --hard HEAD
 
+# 2. 彻底清理所有未跟踪的文件/目录（包括插件和.meta文件）
+git clean -fd
+
+# 3. 从远程仓库获取最新版本
+git fetch origin
+
+# 4. 强制将本地分支重置到和远程一致
+git reset --hard origin/main
+```
 
 基于当前分支创建并切换到新的 `feat/test` 分支
 ```shell

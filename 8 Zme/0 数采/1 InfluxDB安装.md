@@ -91,6 +91,7 @@ sudo systemctl stop influxdb.service
 
 ## 6.4 初始化脚本
 
+DBInit.sh
 ```shell
 #!/bin/bash
 
