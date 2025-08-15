@@ -28,11 +28,21 @@ sudo service docker restart
 ```shell
 sudo tee /etc/docker/daemon.json <<-'EOF'
 {
-    "registry-mirrors": [
-    	"https://docker.unsee.tech",
-        "https://dockerpull.org",
-        "https://dockerhub.icu"
-    ]
+   "registry-mirrors": [
+	 "https://hub-mirror.c.163.com",
+	 "https://mirror.baidubce.com",
+	 "https://docker.mirror.aliyuncs.com",
+	 "https://reg-mirror.qiniu.com",
+	 "https://docker.m.daocloud.io",
+	 "https://mirror.ccs.tencentyun.com",
+	 "https://registry.docker-cn.com",
+	 "https://docker.mirrors.ustc.edu.cn",
+	 "https://dockerproxy.com",
+	 "https://mirror.aliyuncs.com",
+	 "https://docker.nju.edu.cn",
+	 "https://docker.1ms.run",
+	 "https://docker.xuanyuan.me"
+   ]
 }
 EOF
 sudo systemctl daemon-reload && sudo systemctl restart docker

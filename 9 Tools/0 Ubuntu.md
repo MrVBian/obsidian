@@ -262,9 +262,9 @@ allowPorts = [
 ## Client
 ```toml
 # frpc.toml
-serverAddr = ""
+serverAddr = "123.56.117.129"
 serverPort = 10000
-auth.token = ""
+auth.token = "tkTdSxdFXxRkPVBvdJVUVv2cxpt7SeVUAvrDhsbEUXRMdYvMyNY3GU7tKmNC5B4G58mTEKGYR35NN2KBmF547UdxmH4sWCcB2HBfcw7DBkJ554FE5XkVyY75AH6QbtG7MZj4GwbJu5fMYNuVbSGETGyjvpuf7MJAYHpvWteEmp2QxG2Xjcy8PS7887EHF2Gx5AzRteCBdRVZV86YkS8sHpjnCdUkyy3Dt8X5fp6WhxePpmMsaU5p3hVHWzSDwtVf5d8Y4THxK833GHjXKw7zJZ2GQXK2csuxYtaxr8rNXwsH3ukM5QTVuMzhPKEc7jXC6bZD4RUuaR4H4BGeKwBcbku4vfhfcRdN8KyBnF2zQS3AVUbvasr6fbwPvHpNPDb7f7rdRGyDrV54wQByU2S8KVuVXnCYxHJ8fkucYfK7TfyeyS6rhzxJR6DvQFwZRZDKvf2VVxnWWF2RK58TSwHtCFdAK3sQaMnN4wRz5zpTTe268MH5cDckB5w63VN7zPEmhKMWnMTepjuNvP2NsfhZJhCD7y7tBKpWUE5A3HHfCXvj6SmyXw3vUbTWeWp3N6mGdceh6haFzF475Va5mF83Q2UWc2vXNmKjnEZsRDBfxkZ45GKYXw2tjStFE5n7e8mRtkJZvYJkQ3zXkw4Rnx3xjWrV4jFBwYT5pEtQfszBwQhUr2nfZ8C3R63RrZZ23VEcwVTukkGaacGxDzzdNUPZmZt47B3tGaTKfT8BXVxGDeKCX8PEtfFe3TFsh5YAA5QP8Te5QNtebHH8aVkb2NCASQtHzfY6tcxHTQUfHembKYMMshQJZdGWSTaftGyYbDYUCMZb8Vy5bVEfJWXXmWm4MVGPjSvDpRyRQRHGKhNMPvdQD78DsVt46S6t7DSsPRyxDQt2FAE8YBxmAJ5cUcSrWhtK7bcDT5xUk3WTWWcvFASAWm4HEUC3uF68xe5aGdMRbHvuYeEGek4TQnM57yXbH8x6WzjUzBQpEKDdyhBtnkC2U7eDRAFNGKwf4GDBPNZC"
 
 [[proxies]]
 name = "ssh"
@@ -343,4 +343,24 @@ sudo systemctl start frpc.service
 
 # 检查状态
 sudo systemctl status frpc.service
+```
+## Docker
+```shell
+sudo docker run --name frps \ 
+  --restart always \ 
+  --network host \ 
+  -e TZ=Asia/Shanghai \ 
+  -v /opt/frps:/opt/frps \ 
+  -d fatedier/frps:v0.61.2 -c /opt/frps/frps.toml
+
+sudo docker run --name frpc \
+  --restart always \
+  -e TZ=Asia/Shanghai \
+  -v /opt/frpc:/opt/frpc \
+  --network host \  #   灵魂所在！
+  -d fatedier/frpc:v0.61.2 -c /opt/frpc/frpc.toml
+
+sudo docker run --name frps --restart always --network host -e TZ=Asia/Shanghai -v /opt/frps:/opt/frps -d fatedier/frps:v0.61.2 -c /opt/frps/frps.toml
+
+sudo docker run --name frpc --restart always -e TZ=Asia/Shanghai -v /opt/frpc:/opt/frpc --network host -d fatedier/frpc:v0.61.2 -c /opt/frpc/frpc.toml
 ```

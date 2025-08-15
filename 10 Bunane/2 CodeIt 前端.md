@@ -5,6 +5,15 @@
 [仪表盘vuero **Electron**](https://themeforest.net/item/vuero-vuejs-3-admin-and-webapp-ui-kit/31053035?s_rank=5)
 [仪表盘Tairo **Tailwind**](https://themeforest.net/item/tairo-multipurpose-nuxt-tailwind-css-dashboard-system/45383013?s_rank=2)
 
+```shell
+nohup pnpm dev > pnpm.log 2>&1 &
+
+ps aux | grep pnpm
+kill -9 
+```
+
+[Vulk - Vue 3 Landing Pages](https://vulk.cssninja.io/subpages/help)
+[Vulk - Vue 3 Landing Pages](https://vulk.cssninja.io/subpages/help/category/article/managing-tasks)
 # 环境
 
 #### Vulk v2.0.1 依赖p
@@ -24,6 +33,8 @@ $env:HTTPS_PROXY = "http://127.0.0.1:7897"
 ```cmd
 pnpm add typescript@4.x -D
 pnpm add vite-plugin-pwa@latest # 去除警告
+pnpm exec update-browserslist-db latest
+pnpm add @fortawesome/free-brands-svg-icons@latest
 ```
 
 ```cmd
