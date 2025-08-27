@@ -4,6 +4,7 @@
 
 [仪表盘vuero **Electron**](https://themeforest.net/item/vuero-vuejs-3-admin-and-webapp-ui-kit/31053035?s_rank=5)
 [仪表盘Tairo **Tailwind**](https://themeforest.net/item/tairo-multipurpose-nuxt-tailwind-css-dashboard-system/45383013?s_rank=2)
+https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469
 
 ```shell
 nohup pnpm dev > pnpm.log 2>&1 &
