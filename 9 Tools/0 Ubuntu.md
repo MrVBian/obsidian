@@ -260,6 +260,7 @@ allowPorts = [
 ]
 ```
 ## Client
+/opt/frpc
 ```toml
 # frpc.toml
 serverAddr = "123.56.117.129"
