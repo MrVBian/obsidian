@@ -42,6 +42,21 @@ git commit -m "fix:"
 git push --set-upstream origin feat/test
 ```
 
+## 用户名和邮箱
+### 查看
+```shell
+git config user.name
+git config user.email
+```
+### 修改
+```shell
+git config user.name "zhenwei.bian"
+git config user.email "zhenwei.bian@zhangmen.com"
+
+# 全局修改
+git config --global user.name "MrVBian"
+git config --global user.email "544207374@qq.com"
+```
 # Git SSH Agent
 ## 1 Window
 

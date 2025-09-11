@@ -1,4 +1,15 @@
 
+1、测试一下编程题，超大数据判题。于涛；
+2、测试一下编程题，C/Java/Python，至少一道。卞振伟；
+
+前端UI建议反馈
+3、创建题目页面
+4、创建题集
+5、编辑题集
+-  http://123.56.117.129:10010/admin/problem/create/singlechoice
+-  http://123.56.117.129:10010/admin/problem-sets/create
+- http://123.56.117.129:10010/admin/problem-sets/editor
+
 
 基于 Vue3 + Naive UI，实现个人中心页面，左侧是菜单栏，包含：
 - 个人信息(UserProfile.vue)
