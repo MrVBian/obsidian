@@ -33,6 +33,13 @@ git fetch origin
 git reset --hard origin/main
 ```
 
+```shell
+# 1. 撤销提交但保留修改（推荐）
+git reset --soft HEAD^
+
+# 2. 撤销add
+git reset -- 文件名
+```
 基于当前分支创建并切换到新的 `feat/test` 分支
 ```shell
 git checkout -b feat/test

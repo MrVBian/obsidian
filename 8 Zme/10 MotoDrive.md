@@ -174,14 +174,13 @@
 
 # 10 VersionNotes
 ```shell
-docker run -p 9000:9000 -p 9090:9090 \
-     --net=host \
+docker run -p 9010:9000 -p 9020:9090 \
      --name minio \
      -d --restart=always \
      -e "MINIO_ACCESS_KEY=admin" \
-     -e "MINIO_SECRET_KEY=12345678" \
-     -v /home/zme/Software/minio/data:/data \
-     -v /home/zme/Software/minio/config:/root/.minio \
+     -e "MINIO_SECRET_KEY=QfnU1024." \
+     -v /home/qfnu/bzw/minio/data:/data \
+     -v /home/qfnu/bzw/minio/config:/root/.minio \
      minio/minio server \
      /data --console-address ":9090" -address ":9000"
 ```
