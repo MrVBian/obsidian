@@ -20,3 +20,22 @@ docker run -p 9000:9000 -p 9090:9090 \
      /data --console-address ":9090" -address ":9000"
 ```
 
+# Jenkins
+
+```shell
+sudo mkdir -p /opt/jenkins/jenkins_home
+sudo mkdir -p /opt/jenkins/logs
+sudo mkdir -p /opt/jenkins/docker
+sudo chmod 777 /opt/jenkins
+
+
+
+# 3bd4012bb0664aa49a54fc2e26a1b195
+docker run -p 10008:8080 -p 10009:5000 --name jenkins \
+--restart=always -u root \
+-v /opt/jenkins/jenkins_home:/var/jenkins_home \
+-v /opt/jenkins/logs:/var/logs \
+-v /opt/jenkins/docker:/var/docker \
+-v /var/run/docker.sock:/var/run/docker.sock \
+-d jenkins/jenkins:lts
+```
