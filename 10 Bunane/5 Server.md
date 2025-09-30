@@ -30,7 +30,7 @@ sudo chmod 777 /opt/jenkins
 
 
 
-# 3bd4012bb0664aa49a54fc2e26a1b195
+# 0b4cb832a6ef4f4f8ece2fb578cca93c
 docker run -p 10008:8080 -p 10009:5000 --name jenkins \
 --restart=always -u root \
 -v /opt/jenkins/jenkins_home:/var/jenkins_home \
@@ -38,4 +38,7 @@ docker run -p 10008:8080 -p 10009:5000 --name jenkins \
 -v /opt/jenkins/docker:/var/docker \
 -v /var/run/docker.sock:/var/run/docker.sock \
 -d jenkins/jenkins:lts
+
+docker exec -it jenkins /bin/bash
+cat /var/jenkins_home/secrets/initialAdminPassword
 ```
