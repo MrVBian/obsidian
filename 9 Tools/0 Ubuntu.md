@@ -44,6 +44,8 @@ ros2 run data_collection listener
 ```shell
 chmod +x start.sh
 sudo vim /etc/systemd/system/zmebot_data_collection_startup.service
+
+sudo vim /etc/systemd/system/ros_tcp_endpoint.service
 ```
 开机自启配置文件内容(20s重连一次)：
 ```shell
@@ -66,6 +68,10 @@ WantedBy=default.target
 启用开机自启动服务：
 ```shell
 sudo systemctl daemon-reload
+sudo systemctl enable ros_tcp_endpoint.service
+sudo systemctl start ros_tcp_endpoint.service
+sudo systemctl status ros_tcp_endpoint.service
+
 sudo systemctl enable zmebot_data_collection_startup.service
 sudo systemctl status zmebot_data_collection_startup.service
 ```
