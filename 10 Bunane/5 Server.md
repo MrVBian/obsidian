@@ -43,6 +43,17 @@ docker exec -it jenkins /bin/bash
 cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 
+# Sonarqube
+```shell
+docker run  -itd  --name sonarqube \
+    -p 10033:9000 \
+    -v /opt/sonarqube/conf:/opt/sonarqube/conf \
+    -v /opt/sonarqube/extensions:/opt/sonarqube/extensions \
+    -v /opt/sonarqube/logs:/opt/sonarqube/logs \
+    -v /opt/sonarqube/data:/opt/sonarqube/data \
+	sonarqube:25.10.0.114319-community
+```
+admin:Xu1SiDao1024.
 # Ldap
 ```
 XUES1Dao1024.
