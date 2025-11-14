@@ -38,7 +38,7 @@ I1BdLj3po_Ra4uKqE8t_bl3zrUYZuOg2TCQTBAA6KyCvss5GX4d8RBpevdcEowl88FfZdc8BRgNG81L5
 
 **grafana：**
 
-| 服务         | 网址                       | 用户 : 密码         |
+| 服务           | 网址                         | 用户 : 密码             |
 | ------------ | -------------------------- | ------------------- |
 | **InfluxDB** | http://172.30.24.201:3000/ | **admin:zme123456** |
 

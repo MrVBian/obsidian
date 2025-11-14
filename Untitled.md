@@ -1,3 +1,8 @@
+目录结构如下：
+
+- ui_splash_screen.h
+- 
+
 # Debug调试语句
 ```shell
 # 查看当前topic

@@ -124,3 +124,20 @@ import { UserProfile, PurchaseRecords, HistoricalWorks, ChangePassword } from ".
 
 
 import { UserMgmt, Purchase, Order, System } from "./components";
+
+
+1、首页
+2、课程介绍页面；
+3、题目集页面
+	题目集类型是考试：
+		概览
+		题目列表
+		提交列表
+		成绩排名
+	题目类型是课后题
+		概述(课程介绍)
+		题目列表
+		提交列表
+		成绩排名
+
+------

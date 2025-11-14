@@ -48,7 +48,14 @@ git commit -m "fix:"
 
 git push --set-upstream origin feat/test
 ```
+切换到目标分支并同步代码
+```shell
+git checkout feature/synthesis
+git pull origin feature/synthesis
 
+git checkout feature/code-ui
+git pull origin feature/code-ui
+```
 ## 用户名和邮箱
 ### 查看
 ```shell
@@ -58,7 +65,7 @@ git config user.email
 ### 修改
 ```shell
 git config user.name "zhenwei.bian"
-git config user.email "zhenwei.bian@zhangmen.com"
+git config user.email "zhenwei.bian@futuringrobot.com"
 
 git config user.name "MrVBian"
 git config user.email "544207374@qq.com"
