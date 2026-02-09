@@ -57,6 +57,7 @@ sudo apt install graphviz -y
 urdf_to_graphiz xxx.urdf
 ```
 当前目录下会生成 pdf 文件
+[PDF转图片](https://smallpdf.com/cn/pdf-to-jpg)
 ![[Pasted image 20240604184518.png]]
 ```shell
 pip3 install urdf-parser-py
