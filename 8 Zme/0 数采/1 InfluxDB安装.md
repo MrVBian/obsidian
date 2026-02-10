@@ -74,7 +74,22 @@ cp influxdb2-client-2.6.1-linux-arm64/influx /usr/local/bin/
 ```shell
 influx setup --org="zme" --bucket="ros" --username="admin" --password="zme123456" --token="I1BdLj3po_Ra4uKqE8t_bl3zrUYZuOg2TCQTBAA6KyCvss5GX4d8RBpevdcEowl88FfZdc8BRgNG81L5XF9Yfg==" --retention=360m --force
 ```
+
+```text
+I1BdLj3po_Ra4uKqE8t_bl3zrUYZuOg2TCQTBAA6KyCvss5GX4d8RBpevdcEowl88FfZdc8BRgNG81L5XF9Yfg==
+```
 [面板](http://172.30.24.201:3000/?orgId=1)
+
+
+| 机器  | uid            |
+| --- | -------------- |
+| 11  | af4l6tlq6gikgd |
+| 12  | cf4nd6u4sqz28b |
+| 13  | ff4nohgshcglce |
+| 14  | ff4negssjcsu8d |
+| 15  | af4nej556f1moc |
+| 33  | ff4nmbi0q7rb4e |
+
 
 ## 6.3 卸载
 
@@ -173,4 +188,54 @@ else
   echo "请手动检查服务状态：curl -I $INFLUX_HOST/ping"
   exit 1
 fi
+```
+
+# 7 开机自启服务
+```shell
+cd /home/zme/robot/teleocontrol/arm_project
+
+# sudo vim /etc/systemd/system/zmebot_data_collection_startup.service
+mkdir -p ~/.config/systemd/user
+vim ~/.config/systemd/user/zmebot_data_collection_startup.service
+```
+Service：
+```service
+[Unit]
+Description=zmebot_data_collection Startup
+After=network.target
+
+[Service]
+# User=zme
+# Group=zme
+# ExecStart=/home/zme/robot/teleocontrol/arm_project/data_collect/start.sh
+ExecStart=/bin/bash -lc '/home/zme/robot/teleocontrol/arm_project/data_collect/start.sh'
+WorkingDirectory=/home/zme/robot/teleocontrol/arm_project/data_collect
+Restart=always
+RestartSec=20
+
+[Install]
+WantedBy=default.target
+```
+启动
+```shell
+cd data_collect
+colcon build
+
+sudo chmod +x start.sh
+
+sudo systemctl daemon-reload
+sudo systemctl enable zmebot_data_collection_startup.service
+sudo systemctl restart zmebot_data_collection_startup.service
+sudo systemctl status zmebot_data_collection_startup.service
+
+sudo systemctl stop zmebot_data_collection_startup.service
+
+chmod +x start.sh
+systemctl --user daemon-reload
+systemctl --user enable zmebot_data_collection_startup.service 
+systemctl --user start zmebot_data_collection_startup.service
+systemctl --user status zmebot_data_collection_startup.service
+
+
+systemctl --user stop zmebot_data_collection_startup.service
 ```

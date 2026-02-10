@@ -42,6 +42,10 @@ I1BdLj3po_Ra4uKqE8t_bl3zrUYZuOg2TCQTBAA6KyCvss5GX4d8RBpevdcEowl88FfZdc8BRgNG81L5
 | ------------ | -------------------------- | ------------------- |
 | **InfluxDB** | http://172.30.24.201:3000/ | **admin:zme123456** |
 
+```text
+11
+X2CPt9p3PXVz-umgaAbt_1H2TPr7Y6M3lpuWTJGX54d4OzedmaFcK6Buh1mJT-Ydm0XLpLx4fAwk7sa009l5vw==
+```
 # 1 用户手册
 
 [打开面板](http://127.0.0.1:3000/d/bdld58hr6p9tsd/zmebot?orgId=1&refresh=5s)
@@ -56,7 +60,7 @@ docker pull grafana/grafana
 ```
 
 ```shell
-docker run -d --name grafana --net host grafana/grafana
+docker run -d --name grafana --restart always --net host grafana/grafana
 
 # 可选参数，保存grafana配置项、插件、图表等
 # -v yourpath:/var/lib/grafana

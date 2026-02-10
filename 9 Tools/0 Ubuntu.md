@@ -57,8 +57,8 @@ After=network.target
 Environment="ROS_DOMAIN_ID=45"
 User=zme
 Group=zme
-ExecStart=/home/zme/zmebot_data_collection/start.sh
-WorkingDirectory=/home/zme/zmebot_data_collection
+ExecStart=/home/zme/robot/teleocontrol/arm_project/data_collect/start.sh
+WorkingDirectory=/home/zme/robot/teleocontrol/arm_project/data_collect
 Restart=always
 RestartSec=20
 

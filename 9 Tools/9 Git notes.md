@@ -46,7 +46,7 @@ git checkout -b feat/test
 git add 
 git commit -m "fix:"
 
-git push --set-upstream origin feat/test
+git push  feat/test
 ```
 切换到目标分支并同步代码
 ```shell
