@@ -72,7 +72,10 @@ cp influxdb2-client-2.6.1-linux-arm64/influx /usr/local/bin/
 ## 6.2 初始化密码和数据库
 
 ```shell
-influx setup --org="zme" --bucket="ros" --username="admin" --password="zme123456" --token="I1BdLj3po_Ra4uKqE8t_bl3zrUYZuOg2TCQTBAA6KyCvss5GX4d8RBpevdcEowl88FfZdc8BRgNG81L5XF9Yfg==" --retention=360m --force
+# 删除特定配置
+influx config rm default
+
+influx setup --org="zme" --bucket="ros" --username="admin" --password="zme123456" --token="I1BdLj3po_Ra4uKqE8t_bl3zrUYZuOg2TCQTBAA6KyCvss5GX4d8RBpevdcEowl88FfZdc8BRgNG81L5XF9Yfg==" --retention=30d --force
 ```
 
 ```text
@@ -119,7 +122,7 @@ BUCKET_NAME="ros"
 ADMIN_USER="admin"
 ADMIN_PASSWORD="zme123456"
 API_TOKEN="I1BdLj3po_Ra4uKqE8t_bl3zrUYZuOg2TCQTBAA6KyCvss5GX4d8RBpevdcEowl88FfZdc8BRgNG81L5XF9Yfg=="
-RETENTION_DURATION="72h" # 关键修复：使用持续时间字符串而非数字
+RETENTION_DURATION="30d" # 关键修复：使用持续时间字符串而非数字
 
 # 服务检查函数
 check_service() {
@@ -230,7 +233,9 @@ sudo systemctl status zmebot_data_collection_startup.service
 
 sudo systemctl stop zmebot_data_collection_startup.service
 
+cd /home/zme/robot/teleocontrol/arm_project/data_collect
 chmod +x start.sh
+colcon build
 systemctl --user daemon-reload
 systemctl --user enable zmebot_data_collection_startup.service 
 systemctl --user start zmebot_data_collection_startup.service
@@ -238,4 +243,23 @@ systemctl --user status zmebot_data_collection_startup.service
 
 
 systemctl --user stop zmebot_data_collection_startup.service
+```
+10、11版本太老，没部署
+- 12 √
+- 13 √
+- 14 √
+- 15 √
+- 16
+- 17 √
+- 18 √
+- 19
+- 20 √
+- 23 √
+- 24 √
+
+```shell
+# 删除特定配置
+influx config rm default
+
+influx setup --org="zme" --bucket="ros" --username="admin" --password="zme123456" --token="I1BdLj3po_Ra4uKqE8t_bl3zrUYZuOg2TCQTBAA6KyCvss5GX4d8RBpevdcEowl88FfZdc8BRgNG81L5XF9Yfg==" --retention=30d --force
 ```
