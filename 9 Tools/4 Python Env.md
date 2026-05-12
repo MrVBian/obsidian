@@ -73,8 +73,13 @@ pip install numpy==1.26.0 --force-reinstall
 
 # 二、conda
 
+## 0. 管理conda自身
+```shell
+wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Linux-x86_64.sh
+/root/miniconda3/bin/conda init bash
+conda init zsh
+```
 ## 1. 管理conda自身
-
 ```shell
 # 查看conda版本
 conda --version
