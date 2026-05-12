@@ -367,7 +367,7 @@ sudo docker run --name frpc \
   --restart always \
   -e TZ=Asia/Shanghai \
   -v /opt/frpc:/opt/frpc \
-  --network host \  #   灵魂所在！
+  --network host \ 
   -d fatedier/frpc:v0.61.2 -c /opt/frpc/frpc.toml
 
 sudo docker run --name frps --restart always --network host -e TZ=Asia/Shanghai -v /opt/frps:/opt/frps -d fatedier/frps:v0.61.2 -c /opt/frps/frps.toml
