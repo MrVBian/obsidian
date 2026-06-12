@@ -35,12 +35,12 @@ ros2 service call /right/enable_agx_arm std_srvs/srv/SetBool "{data: false}"
 # 通过terminator起两个窗口
 
 # 第一个窗口，执行
-bash /home/zme/pico_tele_agx/docker.sh
+bash /home/zme/pico_tele_zme/docker.sh
 bash 1start_xr.sh
 
 
 # 第二个窗口，执行
-bash /home/zme/pico_tele_agx/docker.sh
+bash /home/zme/pico_tele_zme/docker.sh
 bash 2start_tele.sh
 ```
 
