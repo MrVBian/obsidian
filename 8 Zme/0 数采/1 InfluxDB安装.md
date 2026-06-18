@@ -256,10 +256,27 @@ systemctl --user stop zmebot_data_collection_startup.service
 - 20 √
 - 23 √
 - 24 √
+- 25 √
 
 ```shell
 # 删除特定配置
 influx config rm default
 
 influx setup --org="zme" --bucket="ros" --username="admin" --password="zme123456" --token="I1BdLj3po_Ra4uKqE8t_bl3zrUYZuOg2TCQTBAA6KyCvss5GX4d8RBpevdcEowl88FfZdc8BRgNG81L5XF9Yfg==" --retention=30d --force
+```
+
+
+```shell
+#!/bin/bash
+
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+export CYCLONEDDS_URI=file:///home/zme/robot_config/system_config/zme_robot/cyclonedds_config/cyclonedds_out.xml
+export ROS_DOMAIN_ID=25
+ROS_LOCALHOST_ONLY=0
+
+# 设置ROS 2工作空间
+source /home/zme/robot/teleocontrol/arm_project/data_collect/install/setup.bash
+
+# 执行你想要自启动的ROS 2节点
+ros2 run data_collection slave_to_db
 ```
