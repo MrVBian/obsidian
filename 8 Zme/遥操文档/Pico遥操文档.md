@@ -1,4 +1,4 @@
-![Pico遥操使用文档](assets/Pico遥操使用文档.jpg)
+![Pico遥操使用文档](8%20Zme/遥操文档/assets/Pico遥操使用文档.jpg)
 
 # 1 松灵双臂
 
@@ -55,7 +55,7 @@ bash 2start_tele.sh
 | **3** | **连接**   | 勾选 **Shared network**（有线通信），等待片刻后选择目标 IP  |
 | **4** | **配置**   | 勾选 `Tracking` 下的 `Head`、`Controller`、`Hand` 及 `Send` |
 
-![image-20260609145431123](./assets/XRobotToolkit.png)
+![image-20260609145431123](8%20Zme/遥操文档/assets/XRobotToolkit.png)
 
 | Item                                           | Description                    |
 | ---------------------------------------------- | ------------------------------ |
