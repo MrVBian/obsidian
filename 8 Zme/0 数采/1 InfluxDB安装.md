@@ -280,3 +280,6 @@ source /home/zme/robot/teleocontrol/arm_project/data_collect/install/setup.bash
 # 执行你想要自启动的ROS 2节点
 ros2 run data_collection slave_to_db
 ```
+
+
+/home/zme/robot_config/system_config/zme_robot/supervisor
