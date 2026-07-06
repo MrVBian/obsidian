@@ -9,6 +9,7 @@ docker run -d \
   --network=host \
   ghcr.io/home-assistant/home-assistant:stable
   
+// recommend
 docker run -d \
   --name homeassistant \
   --privileged \
@@ -37,8 +38,9 @@ mkdir config/custom_components
 unzip hacs.zip -d hacs
 mv hacs config/custom_components
 ```
-
 - `/PATH_TO_YOUR_CONFIG` 指向存储配置的文件夹，并运行容器。请确保保留 `:/config` 部分。
 - D-Bus 是可选的，但如果您计划使用蓝牙集成，则必须启用。
 
+**默认端口号**
+- **8123**
 
