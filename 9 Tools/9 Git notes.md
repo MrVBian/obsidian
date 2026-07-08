@@ -61,6 +61,12 @@ git pull origin feature/code-ui
 ```shell
 git config user.name
 git config user.email
+
+git config http.proxy "http://172.24.2.17:7897"
+git config https.proxy "http://172.24.2.17:7897"
+
+git config --unset http.proxy
+git config --unset https.proxy
 ```
 ### 修改
 ```shell
