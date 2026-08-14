@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "modules": [
+    {
+      "description": "By @netease",
+      "type": "resources",
+      "uuid": "e3ee5775-8dee-4b22-b807-31c36d91ea9b",
+      "version": [
+        0,
+        0,
+        5
+      ]
+    }
+  ],
+  "header": {
+    "description": "By @netease",
+    "name": "§lmahoujinK",
+    "uuid": "1ca67d56-ccdc-4067-adfd-81d3b172f4ab",
+    "version": [
+      0,
+      0,
+      5
+    ]
+  }
+}

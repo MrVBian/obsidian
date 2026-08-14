@@ -1,0 +1,26 @@
+{
+  "format_version": 1,
+  "modules": [
+    {
+      "description": "this is description of neteasePet",
+      "type": "data",
+      "uuid": "f18781aa-2f4f-442b-a27a-a90a9c5b579c",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "header": {
+    "description": "this is description of neteasePet",
+    "name": "neteasePet",
+    "uuid": "a50ad4c8-2029-4133-9abe-89d5829ba319",
+    "version": [
+      0,
+      0,
+      1
+    ]
+  },
+  "dependencies": []
+}

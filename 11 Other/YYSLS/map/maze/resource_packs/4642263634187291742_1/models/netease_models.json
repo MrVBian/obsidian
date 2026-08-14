@@ -1,0 +1,205 @@
+{
+    "2020s4_cs_szdgzqE_0_0": {
+        "animation": {
+            "die": "2020s4/animation/cs_szdgzqE_0_0_animation_die.json",
+            "idle": "2020s4/animation/cs_szdgzqE_0_0_animation_idle.json",
+            "jump": "2020s4/animation/cs_szdgzqE_0_0_animation_jump.json",
+            "run": "2020s4/animation/cs_szdgzqE_0_0_animation_run.json",
+            "walk": "2020s4/animation/cs_szdgzqE_0_0_animation_walk.json"
+        },
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/cs_szdgzqE_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/cs_szdgzqE_0_0_skeleton.json",
+        "texture": {
+            "tex1": "2020s4/cs_szdgzqE_0_0_bloom"
+        }
+
+    },
+    "2020s4_cs_szdgzqF_0_0": {
+        "animation": {
+            "die": "2020s4/animation/cs_szdgzqF_0_0_animation_die.json",
+            "idle": "2020s4/animation/cs_szdgzqF_0_0_animation_idle.json",
+            "jump": "2020s4/animation/cs_szdgzqF_0_0_animation_jump.json",
+            "run": "2020s4/animation/cs_szdgzqF_0_0_animation_run.json",
+            "walk": "2020s4/animation/cs_szdgzqF_0_0_animation_walk.json"
+        },
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/cs_szdgzqF_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/cs_szdgzqF_0_0_skeleton.json",
+        "texture": {
+            "tex1": "2020s4/cs_szdgzqF_0_0_bloom"
+        }
+    },
+    "2020s4_xy_szdgzqC_0_0": {
+        "animation": {
+            "die": "2020s4/animation/xy_szdgzqC_0_0_animation_die.json",
+            "idle": "2020s4/animation/xy_szdgzqC_0_0_animation_idle.json",
+            "jump": "2020s4/animation/xy_szdgzqC_0_0_animation_jump.json",
+            "run": "2020s4/animation/xy_szdgzqC_0_0_animation_run.json",
+            "walk": "2020s4/animation/xy_szdgzqC_0_0_animation_walk.json"
+        },
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/xy_szdgzqC_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/xy_szdgzqC_0_0_skeleton.json"
+    },
+    "2020s4_xy_szdgzqD_0_0": {
+        "animation": {
+            "die": "2020s4/animation/xy_szdgzqD_0_0_animation_die.json",
+            "idle": "2020s4/animation/xy_szdgzqD_0_0_animation_idle.json",
+            "jump": "2020s4/animation/xy_szdgzqD_0_0_animation_jump.json",
+            "run": "2020s4/animation/xy_szdgzqD_0_0_animation_run.json",
+            "walk": "2020s4/animation/xy_szdgzqD_0_0_animation_walk.json"
+        },
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/xy_szdgzqD_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/xy_szdgzqD_0_0_skeleton.json"
+    },
+    "2020s4_cs_szdgwqF_0_0": {
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/cs_szdgwqF_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/cs_szdgwqF_0_0_skeleton.json",
+        "texture": {
+            "tex1": "2020s4/cs_szdgwqF_0_0_bloom"
+        }
+    },
+    "2020s4_cs_szdgwqG_0_0": {
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/cs_szdgwqG_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/cs_szdgwqG_0_0_skeleton.json",
+        "texture": {
+            "tex1": "2020s4/cs_szdgwqG_0_0_bloom"
+        }
+    },
+    "2020s4_cs_szdgwqjianF_0_0": {
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/cs_szdgwqjianF_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/cs_szdgwqjianF_0_0_skeleton.json",
+        "texture": {
+            "tex1": "2020s4/cs_szdgwqF_0_0_bloom"
+        }
+    },
+    "2020s4_cs_szdgwqjianG_0_0": {
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/cs_szdgwqjianG_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/cs_szdgwqjianG_0_0_skeleton.json",
+        "texture": {
+            "tex1": "2020s4/cs_szdgwqG_0_0_bloom"
+        }
+    },
+	"2020s4_xy_szdgwqC_0_0": {
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/xy_szdgwqC_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/xy_szdgwqC_0_0_skeleton.json"
+    },
+    "2020s4_xy_szdgwqD_0_0": {
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/xy_szdgwqD_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/xy_szdgwqD_0_0_skeleton.json"
+    },
+    "2020s4_xy_szdgwqD_jian_0_0": {
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/xy_szdgwqD_jian_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/xy_szdgwqD_jian_0_0_skeleton.json"
+    },
+    "2020s4_yx_xiaofeixiang_0_0": {
+        "animation": {
+            "die": "2020s4/animation/yx_xiaofeixiang_0_0_animation_die.json",
+            "idle": "2020s4/animation/yx_xiaofeixiang_0_0_animation_idle.json",
+            "jump": "2020s4/animation/yx_xiaofeixiang_0_0_animation_jump.json",
+            "run": "2020s4/animation/yx_xiaofeixiang_0_0_animation_run.json",
+            "walk": "2020s4/animation/yx_xiaofeixiang_0_0_animation_walk.json"
+        },
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/yx_xiaofeixiang_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/yx_xiaofeixiang_0_0_skeleton.json"
+    },
+	"2020s4_ss_szdgzqG_0_0": {
+        "animation": {
+            "die": "2020s4/animation/ss_szdgzqG_0_0_animation_die.json",
+            "idle": "2020s4/animation/ss_szdgzqG_0_0_animation_idle.json",
+            "jump": "2020s4/animation/ss_szdgzqG_0_0_animation_jump.json",
+            "run": "2020s4/animation/ss_szdgzqG_0_0_animation_run.json",
+            "walk": "2020s4/animation/ss_szdgzqG_0_0_animation_walk.json"
+        },
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/ss_szdgzqG_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/ss_szdgzqG_0_0_skeleton.json",
+        "texture": {
+            "tex1": "2020s4/ss_szdgzqG_0_0_bloom"
+        }
+    },
+    "2020s4_ss_szdgwqB_0_0": {
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/ss_szdgwqB_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/ss_szdgwqB_0_0_skeleton.json",
+        "texture": {
+            "tex1": "2020s4/ss_szdgwqB_0_0_bloom"
+        }
+    },
+	"2020s4_ss_szdgwqjianB_0_0": {
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/ss_szdgwqjianB_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/ss_szdgwqjianB_0_0_skeleton.json",
+        "texture": {
+            "tex1": "2020s4/ss_szdgwqB_0_0_bloom"
+        }
+    },
+    "2020s4_ss_szdgzqA_new": {
+        "animation": {
+            "die": "2020s4/animation/ss_szdgzqA_0_0_animation_die.json",
+            "idle": "2020s4/animation/ss_szdgzqA_0_0_animation_idle.json",
+            "jump": "2020s4/animation/ss_szdgzqA_0_0_animation_jump.json",
+            "run": "2020s4/animation/ss_szdgzqA_0_0_animation_run.json",
+            "walk": "2020s4/animation/ss_szdgzqA_0_0_animation_walk.json"
+        },
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/ss_szdgzqA_0_0_mesh_new.json",
+        "skeleton": "2020s4/skeleton/ss_szdgzqA_0_0_skeleton_new.json"
+    },
+    "2020s4_yx_qiuritonghuawuqi_new": {
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/yx_qiuritonghuawuqi_0_0_mesh.json",
+        "skeleton": "2020s4/skeleton/yx_qiuritonghuawuqi_0_0_skeleton.json"
+    },
+	"2020s4_cs_szdgwqE_new": {
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/cs_szdgwqE_0_0_mesh_new.json",
+        "skeleton": "2020s4/skeleton/cs_szdgwqE_0_0_skeleton_new.json",
+        "texture": {
+            "tex1": "2020s4/cs_szdgwqE_0_0_bloom"
+        }
+    },
+	"2020s4_ss_szdgwqA_new": {
+        "dy_load": true,
+        "is_global": true, 
+        "mesh": "2020s4/mesh/ss_szdgwqA_0_0_mesh_new.json",
+        "skeleton": "2020s4/skeleton/ss_szdgwqA_0_0_skeleton_new.json",
+        "texture": {
+            "tex1": "2020s4/ss_szdgwqA_0_0_bloom"
+        }
+    },
+    "2020s2_xy_jian_02_new": {
+        "is_global": true, 
+        "dy_load": true, 
+        "skeleton": "2020s4/skeleton/xy_jian_02_0_skeleton_new.json", 
+        "mesh": "2020s4/mesh/xy_jian_02_0_mesh_new.json"
+    }
+}

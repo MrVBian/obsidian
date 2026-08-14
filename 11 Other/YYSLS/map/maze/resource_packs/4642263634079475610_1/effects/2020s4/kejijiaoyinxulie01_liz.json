@@ -1,0 +1,90 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "Opaque"
+    },
+    "colorfade": [
+      {
+        "color": "0.92 0.00 1.00 0.47",
+        "time": "0.0"
+      },
+      {
+        "color": "1.00 0.27 1.00 1.00",
+        "time": "0.03894736842105263"
+      },
+      {
+        "color": "0.00 0.90 1.00 0.19",
+        "time": "1.0"
+      }
+    ],
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "direction": {
+      "max": "0.0 -1.0 0.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "200.0",
+      "min": "100.0"
+    },
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 1.5 0.5"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.35 0.35",
+      "min": "0.2 0.2"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.0 1.0",
+        "time": "0.0%"
+      },
+      {
+        "scale": "0.4 0.4",
+        "time": "20.0%"
+      },
+      {
+        "scale": "0.76 0.76",
+        "time": "40.0%"
+      },
+      {
+        "scale": "0.544 0.544",
+        "time": "60.0%"
+      },
+      {
+        "scale": "0.6736 0.6736",
+        "time": "80.0%"
+      },
+      {
+        "scale": "0.59584 0.59584",
+        "time": "100.0%"
+      }
+    ],
+    "texture": {
+      "name": "textures/sfxs/2020s4/cs_mffgzuoqi_02_0_03"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "1.0",
+      "min": "0.0"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.3"
+    }
+  }
+}

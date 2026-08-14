@@ -1,0 +1,73 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.654902 1.000000 0.258824 0.000000",
+        "time": "0.0"
+      },
+      {
+        "color": "0.431373 1.000000 0.305882 1.000000",
+        "time": "0.23421052631578948"
+      },
+      {
+        "color": "0.215686 0.792157 1.000000 1.000000",
+        "time": "0.6947368421052632"
+      },
+      {
+        "color": "0.133333 0.321569 1.000000 0.000000",
+        "time": "1.0"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "2.0"
+    },
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.1 0.1"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotation": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "texture": {
+      "ani": {
+        "fps": "5",
+        "name": "textures/sfxs/2020s4/xy_jiaoyin_keji_001_02_new",
+        "shuffle": true
+      },
+      "name": "textures/particle/2020s4/xy_jiaoyin_keji_001_02_new"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.4",
+      "min": "0.2"
+    }
+  }
+}

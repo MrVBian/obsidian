@@ -1,0 +1,108 @@
+{"frames": [
+
+{
+	"filename": "预 合成 5_0000.png",
+	"frame": {"x":548,"y":518,"w":180,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":256},
+	"sourceSize": {"w":180,"h":256}
+},
+{
+	"filename": "预 合成 5_0001.png",
+	"frame": {"x":548,"y":260,"w":180,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":256},
+	"sourceSize": {"w":180,"h":256}
+},
+{
+	"filename": "预 合成 5_0002.png",
+	"frame": {"x":366,"y":518,"w":180,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":256},
+	"sourceSize": {"w":180,"h":256}
+},
+{
+	"filename": "预 合成 5_0003.png",
+	"frame": {"x":366,"y":260,"w":180,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":256},
+	"sourceSize": {"w":180,"h":256}
+},
+{
+	"filename": "预 合成 5_0004.png",
+	"frame": {"x":184,"y":518,"w":180,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":256},
+	"sourceSize": {"w":180,"h":256}
+},
+{
+	"filename": "预 合成 5_0005.png",
+	"frame": {"x":184,"y":260,"w":180,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":256},
+	"sourceSize": {"w":180,"h":256}
+},
+{
+	"filename": "预 合成 5_0006.png",
+	"frame": {"x":548,"y":2,"w":180,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":256},
+	"sourceSize": {"w":180,"h":256}
+},
+{
+	"filename": "预 合成 5_0007.png",
+	"frame": {"x":366,"y":2,"w":180,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":256},
+	"sourceSize": {"w":180,"h":256}
+},
+{
+	"filename": "预 合成 5_0008.png",
+	"frame": {"x":184,"y":2,"w":180,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":256},
+	"sourceSize": {"w":180,"h":256}
+},
+{
+	"filename": "预 合成 5_0009.png",
+	"frame": {"x":2,"y":518,"w":180,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":256},
+	"sourceSize": {"w":180,"h":256}
+},
+{
+	"filename": "预 合成 5_0010.png",
+	"frame": {"x":2,"y":260,"w":180,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":256},
+	"sourceSize": {"w":180,"h":256}
+},
+{
+	"filename": "预 合成 5_0011.png",
+	"frame": {"x":2,"y":2,"w":180,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":256},
+	"sourceSize": {"w":180,"h":256}
+}],
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "wuqitexiao19.png",
+	"format": "RGBA8888",
+	"size": {"w":730,"h":776},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d84d251ea0525a32525dbe83aca8cb48$"
+}
+}

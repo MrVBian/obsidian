@@ -1,0 +1,56 @@
+{
+  "particleeffect": {
+    "colorfade": [
+      {
+        "color": "0.26 0.49 1.00 1.00",
+        "time": "0.0"
+      },
+      {
+        "color": "0.51 0.51 1.00 1.00",
+        "time": "0.4394736842105263"
+      },
+      {
+        "color": "0.74 0.36 1.00 0.00",
+        "time": "1.0"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "5.0"
+    },
+    "emitterscale": [],
+    "emittersize": {
+      "value": "1.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.1 0.15",
+      "min": "0.05 0.1"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "texture": {
+      "name": "textures/particle/2020s4/cube_2"
+    },
+    "thickness": {
+      "value": "0.0"
+    }
+  }
+}

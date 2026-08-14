@@ -1,0 +1,94 @@
+{
+  "particleeffect": {
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.490000 0.820000 1.000000 0.630000",
+        "time": "0.0"
+      },
+      {
+        "color": "0.740000 0.140000 1.000000 0.348214",
+        "time": "0.04671052631578947"
+      },
+      {
+        "color": "1.000000 0.219608 0.937255 0.607143",
+        "time": "0.0861842105263158"
+      },
+      {
+        "color": "0.098039 0.850980 1.000000 0.285714",
+        "time": "0.14736842105263157"
+      },
+      {
+        "color": "0.192157 0.756863 1.000000 0.464286",
+        "time": "0.19736842105263158"
+      },
+      {
+        "color": "0.840000 0.370000 1.000000 0.285714",
+        "time": "0.25"
+      }
+    ],
+    "direction": {
+      "max": "0.0 0.0 0.0",
+      "min": "0.0 -1.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "3.0"
+    },
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.8 0.0 0.3"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "layer": 15,
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.1 0.1"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotation": {
+      "max": "180.0",
+      "min": "180.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "1.5 1.5",
+        "time": "0.0"
+      },
+      {
+        "scale": "0.0 0.0",
+        "time": "2.0"
+      }
+    ],
+    "texture": {
+      "name": "textures/particle/2020s4/sanjiaolizi01_01"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.3"
+    },
+    "velocity": {
+      "max": "0.5",
+      "min": "0.3"
+    }
+  }
+}

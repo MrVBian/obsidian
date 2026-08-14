@@ -1,0 +1,112 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.4"
+    },
+    "animlodbias": {
+      "value": "0.0"
+    },
+    "blend": {
+      "name": "add"
+    },
+    "colorfade": [
+      {
+        "color": "0.996078 1.0 0.686275 0.2",
+        "time": "0.0"
+      },
+      {
+        "color": "1.0 0.964706 0.458824 1.0",
+        "time": "0.3"
+      },
+      {
+        "color": "1.0 0.745098 0.235294 0.298039",
+        "time": "0.4"
+      },
+      {
+        "color": "1.0 0.411765 0.137255 0.0",
+        "time": "0.5"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 0.0 0.0"
+    },
+    "dampingforce": {
+      "value": "1.0"
+    },
+    "direction": {
+      "max": "0.0 0.0 -1.0",
+      "min": "0.0 0.0 1.0"
+    },
+    "emissionrate": {
+      "max": "50.0",
+      "min": "30.0"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Sphere"
+    },
+    "enablecolor": {
+      "enable": "true"
+    },
+    "enableloop": {
+      "enable": "false"
+    },
+    "faceCameraMode": {
+      "value": "Rotate XYZ"
+    },
+    "fixedscreensize": {
+      "enable": "false"
+    },
+    "inactivetime": {
+      "value": "0.0"
+    },
+    "material": {
+      "name": "materials/particles.material"
+    },
+    "numparticles": {
+      "value": "5"
+    },
+    "particlesize": {
+      "max": "1.0 1.0",
+      "min": "0.5 0.5"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotation": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "rotationspeed": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "scaled": {
+      "enable": "true"
+    },
+    "sizedelta": {
+      "add": "0.0",
+      "mul": "0.95"
+    },
+    "sorted": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "30.0",
+        "name": "textures/sfxs/2020s4/wuqitexiao07"
+      },
+      "name": "textures/sfxs/2020s4/wuqitexiao07"
+    },
+    "timetolive": {
+      "max": "1.8",
+      "min": "1.5"
+    },
+    "velocity": {
+      "max": "5.0",
+      "min": "2.0"
+    }
+  }
+}

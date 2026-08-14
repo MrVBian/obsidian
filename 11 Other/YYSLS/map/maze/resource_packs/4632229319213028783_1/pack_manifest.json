@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "modules": [
+    {
+      "description": "By @netease",
+      "type": "resources",
+      "uuid": "3cf767c9-0be8-49da-8902-d206d29e2c5b",
+      "version": [
+        0,
+        0,
+        2
+      ]
+    }
+  ],
+  "header": {
+    "description": "By @netease",
+    "name": "SsFp01",
+    "uuid": "5fabf513-73ae-451b-9f13-fd9e0262f3b8",
+    "version": [
+      0,
+      0,
+      2
+    ]
+  }
+}

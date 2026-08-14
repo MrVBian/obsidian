@@ -1,0 +1,10 @@
+{
+    "ss_wuqi_zuanshijian_0_0": {
+        "mesh": "mesh/ss_wuqi_zuanshijian_0_0_mesh.json",
+        "skeleton": "skeleton/ss_wuqi_zuanshijian_0_0_skeleton.json",
+        "texture": {
+            "tex1": "dy_load/ss_wuqizuanshijian_0_bloom"
+        },
+		"dy_load": true
+    }
+}

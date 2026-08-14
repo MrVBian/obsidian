@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "modules": [
+    {
+      "description": "By @netease",
+      "type": "resources",
+      "uuid": "507063eb-8dd5-439a-b59a-50c65b78e3d1",
+      "version": [
+        0,
+        0,
+        2
+      ]
+    }
+  ],
+  "header": {
+    "description": "By @netease",
+    "name": "2020S4patch1.18",
+    "uuid": "bb721b27-3faa-4e0f-bc6f-e3494f91089b",
+    "version": [
+      0,
+      0,
+      2
+    ]
+  }
+}

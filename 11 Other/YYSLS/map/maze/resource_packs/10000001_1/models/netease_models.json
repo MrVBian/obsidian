@@ -1,0 +1,77 @@
+{
+	"pt_yeshengxiongmao_0_1": {
+		"mesh": "pet_panda/mesh/pt_yeshengxiongmao_0_1_mesh.json",
+		"skeleton": "pet_panda/skeleton/pt_yeshengxiongmao_0_1_skeleton.json",
+		"animation": {
+			"build_pickup": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_build_pickup.json",
+			"idle_bored": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_bored.json",
+			"idle_play": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_play.json",
+			"idle_stand": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_stand.json",
+			"walk": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_walk.json",
+			"play_shake": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_shake.json",
+			"play_sneeze": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_sneeze.json",
+			"play_tongue": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_tongue.json"
+		}
+
+	},
+	"yx_kaijiaxiongmao_0_1": {
+		"mesh": "pet_panda/mesh/yx_kaijiaxiongmao_0_1_mesh.json",
+		"skeleton": "pet_panda/skeleton/yx_kaijiaxiongmao_0_1_skeleton.json",
+		"animation": {
+			"build_pickup": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_build_pickup.json",
+			"idle_bored": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_bored.json",
+			"idle_play": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_play.json",
+			"idle_stand": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_stand.json",
+			"walk": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_walk.json",
+			"play_shake": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_shake.json",
+			"play_sneeze": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_sneeze.json",
+			"play_tongue": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_tongue.json"
+		}
+	},
+	"ss_mofaxiongmao_0_1": {
+		"mesh": "pet_panda/mesh/ss_mofaxiongmao_0_1_mesh.json",
+		"skeleton": "pet_panda/skeleton/ss_mofaxiongmao_0_1_skeleton.json",
+		"animation": {
+			"build_pickup": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_build_pickup.json",
+			"idle_bored": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_bored.json",
+			"idle_play": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_play.json",
+			"idle_stand": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_stand.json",
+			"walk": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_walk.json",
+			"play_shake": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_shake.json",
+			"play_sneeze": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_sneeze.json",
+			"play_tongue": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_tongue.json"
+		}
+    },
+	"xy_xiongmaoguanzhang_0_1": {
+		"mesh": "pet_panda/mesh/xy_xiongmaoguanzhang_0_1_mesh.json",
+		"skeleton": "pet_panda/skeleton/xy_xiongmaoguanzhang_0_1_skeleton.json",
+		"animation": {
+			"build_pickup": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_build_pickup.json",
+			"idle_bored": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_bored.json",
+			"idle_play": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_play.json",
+			"idle_stand": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_stand.json",
+			"walk": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_walk.json",
+			"play_shake": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_shake.json",
+			"play_sneeze": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_sneeze.json",
+			"play_tongue": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_tongue.json"
+		}
+	},
+	"ss_wushixiongmao_0_1": {
+		"mesh": "pet_panda/mesh/ss_wushixiongmao_0_1_mesh.json",
+		"skeleton": "pet_panda/skeleton/ss_wushixiongmao_0_1_skeleton.json",
+		"animation": {
+			"build_pickup": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_build_pickup.json",
+			"idle_bored": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_bored.json",
+			"idle_play": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_play.json",
+			"idle_stand": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_stand.json",
+			"walk": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_idle_walk.json",
+			"play_shake": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_shake.json",
+			"play_sneeze": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_sneeze.json",
+			"play_tongue": "pet_panda/animation/pt_yeshengxiongmao_0_1_animation_play_tongue.json"
+		}
+	},
+	"zhuzi": {
+        "mesh": "pet_panda/mesh/zhuzi_mesh.json", 
+        "skeleton": "pet_panda/skeleton/zhuzi_skeleton.json"
+    }
+}

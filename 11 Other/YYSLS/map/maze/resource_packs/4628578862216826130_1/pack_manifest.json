@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "modules": [
+    {
+      "description": "By @netease",
+      "type": "resources",
+      "uuid": "29cd4573-ce3a-44ee-8d00-c195ec4c3ca5",
+      "version": [
+        0,
+        0,
+        5
+      ]
+    }
+  ],
+  "header": {
+    "description": "By @netease",
+    "name": "§lfootprintS",
+    "uuid": "0c21d8f2-886f-4997-9d39-084abe81905d",
+    "version": [
+      0,
+      0,
+      5
+    ]
+  }
+}

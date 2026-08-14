@@ -1,0 +1,52 @@
+{"frames": [
+
+{
+	"filename": "79419ee873b3f5e8a8647d13e39e3702.png 合成 1_0000.png",
+	"frame": {"x":70,"y":2,"w":32,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":64},
+	"sourceSize": {"w":32,"h":64}
+},
+{
+	"filename": "79419ee873b3f5e8a8647d13e39e3702.png 合成 1_0001.png",
+	"frame": {"x":36,"y":68,"w":32,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":64},
+	"sourceSize": {"w":32,"h":64}
+},
+{
+	"filename": "79419ee873b3f5e8a8647d13e39e3702.png 合成 1_0002.png",
+	"frame": {"x":36,"y":2,"w":32,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":64},
+	"sourceSize": {"w":32,"h":64}
+},
+{
+	"filename": "79419ee873b3f5e8a8647d13e39e3702.png 合成 1_0003.png",
+	"frame": {"x":2,"y":68,"w":32,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":64},
+	"sourceSize": {"w":32,"h":64}
+},
+{
+	"filename": "79419ee873b3f5e8a8647d13e39e3702.png 合成 1_0004.png",
+	"frame": {"x":2,"y":2,"w":32,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":64},
+	"sourceSize": {"w":32,"h":64}
+}],
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "wuqitexiao34.png",
+	"format": "RGBA8888",
+	"size": {"w":104,"h":134},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f8d0aadc9f285d299a5b68eb681ea401$"
+}
+}

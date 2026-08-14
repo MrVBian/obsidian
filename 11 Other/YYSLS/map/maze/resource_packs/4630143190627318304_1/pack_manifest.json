@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "modules": [
+    {
+      "description": "By @netease",
+      "type": "resources",
+      "uuid": "bd569b37-eb64-43c9-89e2-f4df6df7ff0b",
+      "version": [
+        0,
+        0,
+        3
+      ]
+    }
+  ],
+  "header": {
+    "description": "By @netease",
+    "name": "§lunicorn",
+    "uuid": "933484dd-c271-43df-b9a9-3b215c995d6a",
+    "version": [
+      0,
+      0,
+      3
+    ]
+  }
+}

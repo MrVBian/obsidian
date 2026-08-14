@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "modules": [
+    {
+      "description": "By @netease",
+      "type": "data",
+      "uuid": "accfa4bd-fcf5-47ce-b228-894f620d7a30",
+      "version": [
+        0,
+        0,
+        3
+      ]
+    }
+  ],
+  "header": {
+    "description": "By @netease",
+    "name": "§ldabaojian",
+    "uuid": "feb09161-21df-46d3-b691-e14bf46a8a5b",
+    "version": [
+      0,
+      0,
+      3
+    ]
+  }
+}

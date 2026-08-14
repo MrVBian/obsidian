@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "modules": [
+    {
+      "description": "By @netease",
+      "type": "data",
+      "uuid": "2122206a-225a-45f2-a7db-0eea450afae2",
+      "version": [
+        0,
+        0,
+        5
+      ]
+    }
+  ],
+  "header": {
+    "description": "By @netease",
+    "name": "§lmahoujinS",
+    "uuid": "81c03e6f-604a-4f22-a3d2-38fff7c51465",
+    "version": [
+      0,
+      0,
+      5
+    ]
+  }
+}

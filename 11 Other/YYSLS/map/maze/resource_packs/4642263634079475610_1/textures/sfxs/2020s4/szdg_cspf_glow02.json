@@ -1,0 +1,108 @@
+{"frames": [
+
+{
+	"filename": "白色 固态层 10 合成 3_0000.png",
+	"frame": {"x":776,"y":1030,"w":256,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":512},
+	"sourceSize": {"w":256,"h":512}
+},
+{
+	"filename": "白色 固态层 10 合成 3_0001.png",
+	"frame": {"x":776,"y":516,"w":256,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":512},
+	"sourceSize": {"w":256,"h":512}
+},
+{
+	"filename": "白色 固态层 10 合成 3_0002.png",
+	"frame": {"x":518,"y":1030,"w":256,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":512},
+	"sourceSize": {"w":256,"h":512}
+},
+{
+	"filename": "白色 固态层 10 合成 3_0003.png",
+	"frame": {"x":518,"y":516,"w":256,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":512},
+	"sourceSize": {"w":256,"h":512}
+},
+{
+	"filename": "白色 固态层 10 合成 3_0004.png",
+	"frame": {"x":260,"y":1030,"w":256,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":512},
+	"sourceSize": {"w":256,"h":512}
+},
+{
+	"filename": "白色 固态层 10 合成 3_0005.png",
+	"frame": {"x":260,"y":516,"w":256,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":512},
+	"sourceSize": {"w":256,"h":512}
+},
+{
+	"filename": "白色 固态层 10 合成 3_0006.png",
+	"frame": {"x":776,"y":2,"w":256,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":512},
+	"sourceSize": {"w":256,"h":512}
+},
+{
+	"filename": "白色 固态层 10 合成 3_0007.png",
+	"frame": {"x":518,"y":2,"w":256,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":512},
+	"sourceSize": {"w":256,"h":512}
+},
+{
+	"filename": "白色 固态层 10 合成 3_0008.png",
+	"frame": {"x":260,"y":2,"w":256,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":512},
+	"sourceSize": {"w":256,"h":512}
+},
+{
+	"filename": "白色 固态层 10 合成 3_0009.png",
+	"frame": {"x":2,"y":1030,"w":256,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":512},
+	"sourceSize": {"w":256,"h":512}
+},
+{
+	"filename": "白色 固态层 10 合成 3_0010.png",
+	"frame": {"x":2,"y":516,"w":256,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":512},
+	"sourceSize": {"w":256,"h":512}
+},
+{
+	"filename": "白色 固态层 10 合成 3_0011.png",
+	"frame": {"x":2,"y":2,"w":256,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":512},
+	"sourceSize": {"w":256,"h":512}
+}],
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "szdg_cspf_glow02.png",
+	"format": "RGBA8888",
+	"size": {"w":1034,"h":1544},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:fd7f0fb44b91c268e0df59084d581c03$"
+}
+}

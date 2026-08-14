@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "modules": [
+    {
+      "description": "this is description of neteasePet",
+      "type": "resources",
+      "uuid": "14682e67-7482-4b5e-ac6e-94bd06295da6",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "header": {
+    "description": "this is description of neteasePet",
+    "name": "neteasePet",
+    "uuid": "f2e1bbc2-185f-452b-80ed-0761ab31e0aa",
+    "version": [
+      0,
+      0,
+      1
+    ]
+  }
+}

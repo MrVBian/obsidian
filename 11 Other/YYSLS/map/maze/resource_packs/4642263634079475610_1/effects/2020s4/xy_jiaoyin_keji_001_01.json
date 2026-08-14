@@ -1,0 +1,68 @@
+{
+  "particleeffect": {
+    "direction": {
+      "max": "0.0 0.0 1.0",
+      "min": "0.0 0.0 0.0",
+      "value": "Direction"
+    },
+    "emissionrate": {
+      "max": "10.0",
+      "min": "1.0"
+    },
+    "emitterscale": [],
+    "emittersize": {
+      "value": "0.5 0.5 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enablecolor": {
+      "enable": "false"
+    },
+    "enableloop": {
+      "enable": "true"
+    },
+    "faceCameraMode": {
+      "value": "Direction"
+    },
+    "numparticles": {
+      "value": "3"
+    },
+    "particlesize": {
+      "max": "0.2 0.2",
+      "min": "0.07 0.07"
+    },
+    "relative": {
+      "enable": "false"
+    },
+    "rotation": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "sizedelta": [
+      {
+        "scale": "0.7 0.7",
+        "time": "0.0"
+      },
+      {
+        "scale": "1.5 1.5",
+        "time": "2.0"
+      }
+    ],
+    "texture": {
+      "ani": {
+        "fps": "15",
+        "name": "textures/sfxs/2020s4/xy_jiaoyin_keji_001_01_new",
+        "shuffle": false
+      },
+      "name": "textures/particle/2020s4/xy_jiaoyin_keji_001_01_new"
+    },
+    "thickness": {
+      "value": "0.0"
+    },
+    "velocity": {
+      "max": "0.4",
+      "min": "0.2"
+    }
+  }
+}

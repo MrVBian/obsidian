@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "modules": [
+    {
+      "description": "By @netease",
+      "type": "data",
+      "uuid": "e2e2096f-2afc-4338-9ef4-24aacd14b92e",
+      "version": [
+        0,
+        0,
+        5
+      ]
+    }
+  ],
+  "header": {
+    "description": "By @netease",
+    "name": "§lfootprintK",
+    "uuid": "c343072b-b13b-4d25-9596-304c7c1b61b0",
+    "version": [
+      0,
+      0,
+      5
+    ]
+  }
+}

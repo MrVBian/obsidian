@@ -1,0 +1,108 @@
+{
+  "particleeffect": {
+    "activetime": {
+      "value": "0.0"
+    },
+    "animlodbias": {
+      "value": "0.0"
+    },
+    "blend": {
+      "name": "blend"
+    },
+    "colorfade": [
+      {
+        "color": "1.0 1.0 1.0 0.2",
+        "time": "0.0"
+      },
+      {
+        "color": "0.933333 0.933333 0.933333 0.501961",
+        "time": "0.1"
+      },
+      {
+        "color": "0.47451 0.47451 0.47451 0.0",
+        "time": "0.5"
+      }
+    ],
+    "constantforce": {
+      "value": "0.0 0.0 0.0"
+    },
+    "dampingforce": {
+      "value": "2.0"
+    },
+    "direction": {
+      "max": "0.0 1.0 0.0",
+      "min": "0.0 1.0 0.5"
+    },
+    "emissionrate": {
+      "max": "15.0",
+      "min": "10.0"
+    },
+    "emittersize": {
+      "value": "0.0 0.0 0.0"
+    },
+    "emittertype": {
+      "value": "Box"
+    },
+    "enablecolor": {
+      "enable": "true"
+    },
+    "enableloop": {
+      "enable": "false"
+    },
+    "faceCameraMode": {
+      "value": "Rotate XYZ"
+    },
+    "fixedscreensize": {
+      "enable": "false"
+    },
+    "inactivetime": {
+      "value": "0.0"
+    },
+    "material": {
+      "name": "materials/particles.material"
+    },
+    "numparticles": {
+      "value": "10"
+    },
+    "particlesize": {
+      "max": "0.4 0.4",
+      "min": "0.1 0.1"
+    },
+    "relative": {
+      "enable": "true"
+    },
+    "rotation": {
+      "max": "360.0",
+      "min": "0.0"
+    },
+    "rotationspeed": {
+      "max": "0.0",
+      "min": "0.0"
+    },
+    "scaled": {
+      "enable": "true"
+    },
+    "sizedelta": {
+      "add": "0.0",
+      "mul": "1.03"
+    },
+    "sorted": {
+      "enable": "false"
+    },
+    "texture": {
+      "ani": {
+        "fps": "10.0",
+        "name": "textures/sfxs/2020s4/wuqitexiao28"
+      },
+      "name": "textures/sfxs/2020s4/wuqitexiao28"
+    },
+    "timetolive": {
+      "max": "0.5",
+      "min": "0.5"
+    },
+    "velocity": {
+      "max": "1.0",
+      "min": "2.0"
+    }
+  }
+}

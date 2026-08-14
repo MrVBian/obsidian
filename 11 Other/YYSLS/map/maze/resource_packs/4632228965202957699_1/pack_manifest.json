@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "modules": [
+    {
+      "description": "By @netease",
+      "type": "resources",
+      "uuid": "69338221-f779-44aa-8a8c-f60df38c462d",
+      "version": [
+        0,
+        0,
+        3
+      ]
+    }
+  ],
+  "header": {
+    "description": "By @netease",
+    "name": "ss_wuqi_zuanshijian_0_0",
+    "uuid": "7060f0d2-3669-4a45-806e-3ee0a8850b85",
+    "version": [
+      0,
+      0,
+      3
+    ]
+  }
+}
