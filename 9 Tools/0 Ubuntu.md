@@ -1,4 +1,4 @@
-# 1 app open when system start
+a# 1 app open when system start
 
 ## 1.1 图形化操作增加指令
 ```shell

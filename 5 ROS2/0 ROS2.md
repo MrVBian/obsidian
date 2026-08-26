@@ -157,7 +157,7 @@ ament_target_dependencies(rclcpp
 sudo apt-get install ros-$ROS_DISTRO-rqt
 sudo apt-get install ros-$ROS_DISTRO-rqt-common-plugins
 ```
-![[4.png]]
+![[5 ROS2/assets/4.png]]
 ## 3.1 topic
 ```shell
 # 查看话题信息
