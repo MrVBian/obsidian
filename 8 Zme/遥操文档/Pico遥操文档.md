@@ -10,6 +10,8 @@
 # 通过terminator执行
 # 会启动四个窗口，并启动四个程序，第2个窗口需要密码
 bash /home/zme/pico_tele_agx/start_xr.sh
+
+ros2 topic pub --once /isaac_joint_command sensor_msgs/JointState '{header: {stamp: {sec: 1720861606, nanosec: 489197117}, frame_id: ""}, name: ["right_joint1", "right_joint2", "right_joint3", "right_joint4", "right_joint5", "right_joint6", "right_joint7", "left_joint1", "left_joint2", "left_joint3", "left_joint4", "left_joint5", "left_joint6", "left_joint7", "left_gripper_finger_joint1", "left_gripper_finger_joint2"], position: [-2.879793265790644, 1, 1, 0.0, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5, 0.5]}'
 ```
 若服务需要重启，在窗口中执行以下指令：
 ```shell
