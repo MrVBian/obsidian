@@ -12,7 +12,3 @@ Grafana，pw：zmadmin@123
 ssh zmadmin@172.30.24.201
 zmadmin@123
 ```
-
-```bat
-
-```

@@ -9,6 +9,7 @@
 ./isaaclab.sh -p scripts/tutorials/03_envs/policy_inference_in_usd.py --checkpoint logs/rsl_rl/h1_rough/2025-02-19_17-52-02/exported/policy.pt
 
 
+Isaac-Open-Drawer-Franka-Direct
 
 # 拉抽屉
 ./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task Isaac-Franka-Cabinet-Direct-v0
